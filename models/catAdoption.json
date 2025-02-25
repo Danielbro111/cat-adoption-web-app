@@ -13,21 +13,21 @@
       "age": "2 years",
       "breed": "Maine Coon",
       "adoptable": true,
-      "image": "https://example.com/whiskers.jpg"
+      "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/whiskers.jpeg?v=1740491974392"
     },
     {
       "name": "Luna",
       "age": "1 year",
       "breed": "Siamese",
       "adoptable": true,
-      "image": "https://example.com/luna.jpg"
+      "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/luna.jpg?v=1740491971084"
     },
     {
       "name": "Shadow and Moon",
       "age": "3 years",
       "breed": "American Shorthair",
       "adoptable": true,
-      "image": "https://example.com/shadow.jpg"
+      "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/shadow%20and%20moon.webp?v=1740491963574"
     }
   ]
 }
