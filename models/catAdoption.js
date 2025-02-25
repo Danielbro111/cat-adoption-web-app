@@ -8,7 +8,7 @@ import Functions from './functions.js';
 const catAdoption = {
   
   
-  store: new catAdoption('./models/catAdoption.json', {info : {} }),
+  store: new catAdoption('./models/catAdoption.json', {info : {}, featuredCats: [] }),
    collection: 'info',
   array: 'featuredCats',
   
@@ -16,6 +16,10 @@ const catAdoption = {
   getCatInfo() {
     return this.store.findAll(this.collection);
   },
+  
+  getFeaturedCats() {
+    return this.store.findAll(this.array);
+  }
 
   
   };
