@@ -3,7 +3,7 @@
 import logger from '../utils/logger.js';
 import JsonStore from './json-store.js';
 
-const catadoption = {
+const cats = {
 
   store: new JsonStore('./models/mycollection.json', { catBreeds: [] }),
   collection: 'catBreeds',
@@ -19,4 +19,4 @@ const catadoption = {
 
 };
 
-export default catadoption;
+export default cats;

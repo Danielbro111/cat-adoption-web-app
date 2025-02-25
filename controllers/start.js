@@ -10,7 +10,7 @@ const start = {
     
     const viewData = {
       title: "CA1 Starter App",
-      info: functions.getCat()
+      info: catAdoption.getCatInfo()
     };
     
     response.render('start', viewData);   
