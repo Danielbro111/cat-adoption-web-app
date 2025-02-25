@@ -2,6 +2,7 @@
 
 import logger from "../utils/logger.js";
 import functions from "../models/functions.js";
+import catAdoption from "../models/catAdoption.js";
 
 const start = {
   createView(request, response) {
@@ -9,7 +10,7 @@ const start = {
     
     const viewData = {
       title: "CA1 Starter App",
-      info: functions.getAppInfo()
+      info: functions.getCat()
     };
     
     response.render('start', viewData);   
