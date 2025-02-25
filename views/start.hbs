@@ -8,5 +8,52 @@
   <p>
     You can use this start view (along with the matching start controller and start route) as the starting point for your "welcome" view (i.e. your app's homepage). Read the assignment spec to see what other views you should add.
   </p>
+  
+  
+   
+  <h2 class="ui center aligned header">Meet Our Featured Cats</h2>
 
-</section>
+  <div class="ui three stackable cards">
+    {{#each featuredCats}}
+      <div class="card">
+        <div class="image">
+          <img src="{{this.image}}" alt="{{this.name}}">
+        </div>
+        <div class="content">
+          <a class="header">{{this.name}}</a>
+          <div class="meta">
+            <span class="date">{{this.age}} old</span>
+          </div>
+          <div class="description">
+            Breed: {{this.breed}}
+          </div>
+        </div>
+        <div class="extra content">
+          <button class="ui button primary">Adopt Me</button>
+        </div>
+      </div>
+    {{/each}}
+  </div>
+
+  <div class="ui segment" style="margin-top: 3em;">
+    <h4 class="ui dividing header">About Us</h4>
+    <div class="ui grid">
+      <div class="eight wide column">
+        <p><strong>App Title:</strong> {{appTitle}}</p>
+        <p><strong>Location:</strong> {{location}}</p>
+        <p><strong>Contact Us:</strong> <a href="mailto:{{contact.email}}">{{contact.email}}</a></p>
+        <p><strong>Phone:</strong> {{contact.phone}}</p>
+      </div>
+      <div class="eight wide column">
+        <h4 class="ui header">Follow Us</h4>
+        <!-- Social media links can go here -->
+        <a href="#" class="ui circular facebook icon button">
+          <i class="facebook icon"></i>
+        </a>
+        <a href="#" class="ui circular instagram icon button">
+          <i class="instagram icon"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
