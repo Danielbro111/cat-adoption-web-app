@@ -3,7 +3,7 @@
 import { Low } from "lowdb";
 import { JSONFile } from "lowdb/node";
 
-class JsonStore {
+class functions {
   constructor(file, defaults) {
     this.db = new Low(new JSONFile(file), defaults);
     this.db.read();
@@ -68,5 +68,5 @@ class JsonStore {
   }
 }
 
-export default JsonStore;
+export default functions;
 

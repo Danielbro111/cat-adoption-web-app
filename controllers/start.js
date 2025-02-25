@@ -1,7 +1,7 @@
 'use strict';
 
 import logger from "../utils/logger.js";
-import appStore from "../models/app-store.js";
+import functions from "../models/functions.js";
 
 const start = {
   createView(request, response) {
@@ -9,7 +9,7 @@ const start = {
     
     const viewData = {
       title: "CA1 Starter App",
-      info: appStore.getAppInfo()
+      info: functions.getAppInfo()
     };
     
     response.render('start', viewData);   
