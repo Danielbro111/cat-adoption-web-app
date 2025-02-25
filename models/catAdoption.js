@@ -1,3 +1,5 @@
+
+
 'use strict';
 
 import logger from '../utils/logger.js';
@@ -7,15 +9,15 @@ const catAdoption = {
   
   
   store: new catAdoption('./models/catAdoption.json', {info : {} }),
-  collection: 'info',
-  array : 'catAdoption',
+   collection: 'info',
+  array: 'featuredCats',
   
   
-  getAppInfo() {
+  getCatInfo() {
     return this.store.findAll(this.collection);
   },
 
   
   };
 
-export default appStore;
+export default catAdoption;

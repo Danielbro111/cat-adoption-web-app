@@ -1,17 +1,33 @@
 {
   "info": {
-    "founder": "Daniel Brophy",
-    "founded": "2018",
-    "catAdoption": [
-      {
-        "name": "Daniel Brophy",
-        "role": "Web Developer"
-        },
-      {
-        "name": "A.N. Other",
-        "role": "Web Developer"
-        }
-    ],
-    "location": "Waterford"
-  } 
+    "appTitle": "Cat Adoption Center",
+    "location": "Waterford",
+    "contact": {
+      "phone": "(123) 456-7890",
+      "email": "info@catadoptioncenter.com"
+    }
+  },
+  "featuredCats": [
+    {
+      "name": "Whiskers",
+      "age": "2 years",
+      "breed": "Maine Coon",
+      "adoptable": true,
+      "image": "https://example.com/whiskers.jpg"
+    },
+    {
+      "name": "Luna",
+      "age": "1 year",
+      "breed": "Siamese",
+      "adoptable": true,
+      "image": "https://example.com/luna.jpg"
+    },
+    {
+      "name": "Shadow",
+      "age": "3 years",
+      "breed": "American Shorthair",
+      "adoptable": true,
+      "image": "https://example.com/shadow.jpg"
+    }
+  ]
 }
