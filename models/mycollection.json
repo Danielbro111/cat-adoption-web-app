@@ -1,0 +1,92 @@
+/*
+  This JSON file contains a collection of cat breeds with specific attributes for each breed. 
+  The information provided includes:
+
+  - "name": The name of the cat breed.
+  - "age": The age of the cat as a string (e.g., "2 years").
+  - "lifespan": The expected lifespan of the breed, typically given as a range of years (e.g., "12-15 years").
+  - "size": The size category of the breed (e.g., "Large", "Medium").
+  - "weight": The weight range of the breed, represented in pounds (e.g., "10-18 lbs").
+  - "colour": A list of common coat colors for the breed (e.g., ["Brown", "Black", "White"]).
+  - "personality": A list of key personality traits that are typical for the breed (e.g., ["Gentle", "Playful", "Affectionate"]).
+  
+  The file includes details for a variety of popular cat breeds, such as Maine Coon, Siamese, Persian, Bengal, and more. 
+  This structure allows for easy expansion with additional breeds or more detailed attributes in the future.
+*/
+
+{
+  "catBreeds": [
+    {
+      "name": "Maine Coon",
+      "age": "2 years",
+      "lifespan": "12-15 years",
+      "size": "Large",
+      "weight": "10-18 lbs",
+      "colour": ["Brown", "Black", "White", "Grey", "Orange"],
+      "personality": ["Gentle", "Playful", "Affectionate", "Intelligent"]
+    },
+    {
+      "name": "Siamese",
+      "age": "3 years",
+      "lifespan": "12-20 years",
+      "size": "Medium",
+      "weight": "8-12 lbs",
+      "colour": ["Cream", "Seal", "Chocolate", "Blue", "Lilac"],
+      "personality": ["Vocal", "Social", "Curious", "Energetic"]
+    },
+    {
+      "name": "Persian",
+      "age": "4 years",
+      "lifespan": "12-17 years",
+      "size": "Medium",
+      "weight": "7-12 lbs",
+      "colour": ["White", "Black", "Blue", "Cream", "Red"],
+      "personality": ["Calm", "Affectionate", "Independent", "Quiet"]
+    },
+    {
+      "name": "Bengal",
+      "age": "1 year",
+      "lifespan": "12-16 years",
+      "size": "Medium to Large",
+      "weight": "8-15 lbs",
+      "colour": ["Brown Spotted", "Snow", "Silver", "Blue"],
+      "personality": ["Energetic", "Playful", "Intelligent", "Confident"]
+    },
+    {
+      "name": "Ragdoll",
+      "age": "3 years",
+      "lifespan": "12-17 years",
+      "size": "Large",
+      "weight": "10-20 lbs",
+      "colour": ["Seal", "Blue", "Chocolate", "Lilac", "Red"],
+      "personality": ["Docile", "Loyal", "Gentle", "Affectionate"]
+    },
+    {
+      "name": "Scottish Fold",
+      "age": "2 years",
+      "lifespan": "12-15 years",
+      "size": "Medium",
+      "weight": "6-13 lbs",
+      "colour": ["White", "Black", "Blue", "Cream", "Silver"],
+      "personality": ["Sweet", "Loyal", "Friendly", "Intelligent"]
+    },
+    {
+      "name": "Sphynx",
+      "age": "3 years",
+      "lifespan": "12-15 years",
+      "size": "Medium",
+      "weight": "6-12 lbs",
+      "colour": ["Pink", "Black", "White", "Grey", "Brown"],
+      "personality": ["Affectionate", "Playful", "Curious", "Social"]
+    },
+    {
+      "name": "British Shorthair",
+      "age": "5 years",
+      "lifespan": "12-20 years",
+      "size": "Medium to Large",
+      "weight": "7-17 lbs",
+      "colour": ["Blue", "Black", "White", "Cream", "Tabby"],
+      "personality": ["Calm", "Loyal", "Independent", "Quiet"]
+    }
+  ]
+}
