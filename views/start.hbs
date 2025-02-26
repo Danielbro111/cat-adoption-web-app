@@ -69,24 +69,30 @@
     No featured cats! Please see our dashboard for some friendly felines!
   </h3>
 {{/unless}}
+  
+  
 {{#each featuredCats}}
-<div class="ui cards" style="margin-top: 2em; padding: 10px;">
-
-    <section class="ui middle aligned segment">
-      <div class="card">
-        <div class="image">
-          <img src="{{image}}" alt="Image of {{name}}">
-        </div>
-        <div class="content">
-          <div class="header">{{name}}</div>
-          <div class="meta">{{age}} - {{breed}}</div>
-          <div class="description">
-            {{#if adoptable}}<bold>Adoptable!</bold>
-            
-            {{else}} <bold></bold>Not available for adoption!</bold>{{/if}}
-          </div>
+  <section class="ui middle aligned segment" style="margin-top: 2em; padding: 10px;">
+    <div class="ui card">
+      
+      <div class="image">
+        <img src="{{image}}" >
+      </div>
+      
+      <div class="content">
+        <p><strong>Name:</strong> {{name}}</p>
+        <div class="details"><bold>Age:</bold> {{age}} - <bold>Breed:</bold> {{breed}}</div>
+        <div class="description">
+          
+          {{#if adoptable}}
+            <bold>Adoptable!</bold>
+          
+          {{else}}
+            <strong>Not available for adoption!</strong>
+          {{/if}}
+          
         </div>
       </div>
-    </section>
-  {{/each}}
-</div>
+    </div>
+{{/each}}
+      </section>
