@@ -59,30 +59,34 @@
   {{/with}}
 
 </div>
+  
 
-  <h2 class="ui center aligned header">Meet Our Featured Cats!</h2>
+<h2 class="ui center aligned header" style="margin-top: 2em;">Meet Our Featured Cats!</h2>
+
   
-  {{#unless featuredcats}}
-    <h3 class="ui message">
-     No featured cats! Please see our dashboard for soem freidnly felines!
-    </h3>
-  {{/unless}}
-  
-    {{#each featuredCats}}
+{{#unless featuredCats}}
+  <h3 class="ui message">
+    No featured cats! Please see our dashboard for some friendly felines!
+  </h3>
+{{/unless}}
+{{#each featuredCats}}
+<div class="ui cards" style="margin-top: 2em; padding: 10px;">
+
     <section class="ui middle aligned segment">
-<div class="ui cards" style="margin-top: 2em;, padding: 10em;">
- 
-    <div class="card">
-      <div class="image">
-        <img src="{{image}}" alt="Image of {{name}}">
-      </div>
-      <div class="content">
-        <div class="header">{{name}}</div>
-        <div class="meta">{{age}} - {{breed}}</div>
-        <div class="description">
-          {{#if adoptable}}<strong>Adoptable!</strong>{{else}}Not available for adoption{{/if}}
+      <div class="card">
+        <div class="image">
+          <img src="{{image}}" alt="Image of {{name}}">
+        </div>
+        <div class="content">
+          <div class="header">{{name}}</div>
+          <div class="meta">{{age}} - {{breed}}</div>
+          <div class="description">
+            {{#if adoptable}}<bold>Adoptable!</bold>
+            
+            {{else}} <bold></bold>Not available for adoption!</bold>{{/if}}
+          </div>
         </div>
       </div>
-    </div>
+    </section>
   {{/each}}
 </div>
