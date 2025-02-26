@@ -11,7 +11,8 @@
   <img src = "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/02-lanai-cat-sanctuary-great-went.webp?v=1740492539576" class="ui centered image">
   
    
- <h2 class="ui center aligned header">Meet Our Featured Cats</h2>
+<h2 class="ui center aligned header">Meet Our Featured Cats</h2>
+  
 
 <div class="ui three column stackable grid" style="margin-top: 1em;">
 
@@ -19,16 +20,16 @@
     <div class="column">
       <div class="ui card">
         <div class="image">
-          <img src="{{image}}" alt="{{name}}">
+          <img src="{{image}}" style="width: 100%; height: 200px">
         </div>
         <div class="content">
-          <div class="header">{{name}}</div>
+          <div class="name">{{name}}</div>
           <div class="meta">
             <span class="age">Age: {{age}}</span>
           </div>
           <div class="description">
-            Breed: {{breed}} <br>
-            Status: 
+            <strong>Breed:</strong> {{breed}} <br>
+            <strong>Status:</strong>  
             {{#if adoptable}}
               <span style="color: green;">Available for Adoption</span>
             {{else}}
