@@ -1,7 +1,7 @@
 'use strict';
 
 import logger from "../utils/logger.js";
-import mycollec from '../models/mycollection.js';
+import mycollection from '../models/mycollection.js';
 
 
 

@@ -11,6 +11,7 @@ import dashboard from './controllers/dashboard.js';
 
 //get routes for controllers 
 router.get('/', start.createView);
+router.get ('/dashboard', dashboard.createView);
 
 
 router.get('/error', (request, response) => response.status(404).end('Page not found'));

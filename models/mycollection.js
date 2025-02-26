@@ -1,7 +1,7 @@
 'use strict';
 
 import logger from '../utils/logger.js';
-import JsonStore from './json-store.js';
+import JsonStore from './functions.js';
 
 const cats = {
 

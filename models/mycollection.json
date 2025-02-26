@@ -1,23 +1,8 @@
-/*
-  This JSON file contains a collection of cat breeds with specific attributes for each breed. 
-  The information provided includes:
-
-  - "name": The name of the cat breed.
-  - "age": The age of the cat as a string (e.g., "2 years").
-  - "lifespan": The expected lifespan of the breed, typically given as a range of years (e.g., "12-15 years").
-  - "size": The size category of the breed (e.g., "Large", "Medium").
-  - "weight": The weight range of the breed, represented in pounds (e.g., "10-18 lbs").
-  - "colour": A list of common coat colors for the breed (e.g., ["Brown", "Black", "White"]).
-  - "personality": A list of key personality traits that are typical for the breed (e.g., ["Gentle", "Playful", "Affectionate"]).
-  
-  The file includes details for a variety of popular cat breeds, such as Maine Coon, Siamese, Persian, Bengal, and more. 
-  This structure allows for easy expansion with additional breeds or more detailed attributes in the future.
-*/
 
 {
   "catBreeds": [
     {
-      "id" : "01"
+      "id" : "01",
       "name": "Maine Coon",
       "age": "2 years",
       "lifespan": "12-15 years",
