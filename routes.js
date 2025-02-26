@@ -6,6 +6,7 @@ import logger from "./utils/logger.js";
 const router = express.Router();
 //import the controllers 
 import start from './controllers/start.js';
+import dashboard from './controllers/dashboard.js';
 
 
 //get routes for controllers 
