@@ -11,30 +11,33 @@
   <img src = "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/02-lanai-cat-sanctuary-great-went.webp?v=1740492539576" class="ui centered image">
   
    
-  <h2 class="ui center aligned header">Meet Our Featured Cats</h2>
+ <h2 class="ui center aligned header">Meet Our Featured Cats</h2>
 
-   
-    <div class="ui three stackable cards">
-  
-      {{#each featuredCats}}
-        <div class="card">
-          <div class="image">
-            <img src="{{this.image}}" alt="{{this.name}}">
+<div class="ui three column stackable grid" style="margin-top: 1em;">
+
+  {{#each featuredCats}}
+    <div class="column">
+      <div class="ui card">
+        <div class="image">
+          <img src="{{image}}" alt="{{name}}">
+        </div>
+        <div class="content">
+          <div class="header">{{name}}</div>
+          <div class="meta">
+            <span class="age">Age: {{age}}</span>
           </div>
-          <div class="content">
-            <a class="header">{{this.name}}</a>
-            <div class="meta">
-              <span class="date">{{this.age}} old</span>
-            </div>
-            <div class="description">
-              Breed: {{this.breed}}
-            </div>
-          </div>
-          <div class="extra content">
-            <button class="ui button primary">Adopt Me</button>
+          <div class="description">
+            Breed: {{breed}} <br>
+            Status: 
+            {{#if adoptable}}
+              <span style="color: green;">Available for Adoption</span>
+            {{else}}
+              <span style="color: red;">Not Available</span>
+            {{/if}}
           </div>
         </div>
-      {{/each}}
+      </div>
     </div>
+  {{/each}}
 
-   
+</div>
