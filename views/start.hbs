@@ -11,34 +11,78 @@
   <img src = "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/02-lanai-cat-sanctuary-great-went.webp?v=1740492539576" class="ui centered image">
   
    
-<h2 class="ui center aligned header">Meet Our Featured Cats</h2>
+<h2 class="ui center aligned header">Our Information</h2>
   
 
-<div class="ui three column stackable grid" style="margin-top: 1em;">
+<div class="ui four statistics" style="margin-top: 1em;, padding: 10em;">
+  {{#with info}}
+  
+    <div class="statistic">
+      <div class="value">
+        <i class="small home icon"></i>
+      </div>
+      <div class="label">
+        Center Name: <br>
+        {{Title}}
+      </div>
+    </div>
+    
+    <div class="statistic">
+      <div class="value">
+        <i class="small map pin icon"></i>
+      </div>
+      <div class="label">
+        Location: <br>
+        {{location}}
+      </div>
+    </div>
 
-  {{#each featuredCats}}
-    <div class="column">
-      <div class="ui card">
-        <div class="image">
-          <img src="{{image}}" style="width: 100%; height: 200px">
-        </div>
-        <div class="content">
-          <div class="name">{{name}}</div>
-          <div class="meta">
-            <span class="age">Age: {{age}}</span>
-          </div>
-          <div class="description">
-            <strong>Breed:</strong> {{breed}} <br>
-            <strong>Status:</strong>  
-            {{#if adoptable}}
-              <span style="color: green;">Available for Adoption</span>
-            {{else}}
-              <span style="color: red;">Not Available</span>
-            {{/if}}
-          </div>
+    <div class="statistic">
+      <div class="value">
+        <i class="small phone icon"></i>
+      </div>
+      <div class="label">
+        Contact: <br>
+        {{contact.phone}}
+      </div>
+    </div>
+    
+    <div class="statistic">
+      <div class="value">
+        <i class="small mail icon"></i>
+      </div>
+      <div class="label">
+        Email: <br>
+        {{contact.email}}
+      </div>
+    </div>
+  {{/with}}
+
+</div>
+
+  <h2 class="ui center aligned header">Meet Our Featured Cats!</h2>
+  
+  {{#unless featuredcats}}
+    <h3 class="ui message">
+     No featured cats! Please see our dashboard for soem freidnly felines!
+    </h3>
+  {{/unless}}
+  
+    {{#each featuredCats}}
+    <section class="ui middle aligned segment">
+<div class="ui cards" style="margin-top: 2em;, padding: 10em;">
+ 
+    <div class="card">
+      <div class="image">
+        <img src="{{image}}" alt="Image of {{name}}">
+      </div>
+      <div class="content">
+        <div class="header">{{name}}</div>
+        <div class="meta">{{age}} - {{breed}}</div>
+        <div class="description">
+          {{#if adoptable}}<strong>Adoptable!</strong>{{else}}Not available for adoption{{/if}}
         </div>
       </div>
     </div>
   {{/each}}
-
 </div>
