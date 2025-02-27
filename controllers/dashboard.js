@@ -11,12 +11,12 @@ const dashboard = {
     
     const viewData = {
       title: "Cat Adoption Center Dashboard",
-      catBreeds: mycollection.getAllPlaylists()
+      catBreeds: mycollection.getAllCats()
 
     };
     
     
-     logger.debug(viewData.playlists);
+     logger.debug(viewData.catBreeds);
     
     
     response.render('dashboard', viewData);
