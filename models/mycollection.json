@@ -12,7 +12,7 @@
       "personality": ["Gentle", "Playful", "Affectionate", "Intelligent"]
     },
     {
-      "id" : "02"
+      "id" : "02",
       "name": "Siamese",
       "age": "3 years",
       "lifespan": "12-20 years",
@@ -22,7 +22,7 @@
       "personality": ["Vocal", "Social", "Curious", "Energetic"]
     },
     {
-      "id" : "03"
+      "id" : "03",
       "name": "Persian",
       "age": "4 years",
       "lifespan": "12-17 years",
@@ -32,7 +32,7 @@
       "personality": ["Calm", "Affectionate", "Independent", "Quiet"]
     },
     {
-      "id" : "04"
+      "id" : "04",
       "name": "Bengal",
       "age": "1 year",
       "lifespan": "12-16 years",
@@ -42,7 +42,7 @@
       "personality": ["Energetic", "Playful", "Intelligent", "Confident"]
     },
     {
-      "id" : "05"
+      "id" : "05",
       "name": "Ragdoll",
       "age": "3 years",
       "lifespan": "12-17 years",
@@ -52,7 +52,7 @@
       "personality": ["Docile", "Loyal", "Gentle", "Affectionate"]
     },
     {
-      "id" : "06"
+      "id" : "06",
       "name": "Scottish Fold",
       "age": "2 years",
       "lifespan": "12-15 years",
@@ -62,7 +62,7 @@
       "personality": ["Sweet", "Loyal", "Friendly", "Intelligent"]
     },
     {
-      "id" : "07"
+      "id" : "07",
       "name": "Sphynx",
       "age": "3 years",
       "lifespan": "12-15 years",
@@ -72,7 +72,7 @@
       "personality": ["Affectionate", "Playful", "Curious", "Social"]
     },
     {
-      "id" : "08"
+      "id" : "08",
       "name": "British Shorthair",
       "age": "5 years",
       "lifespan": "12-20 years",
