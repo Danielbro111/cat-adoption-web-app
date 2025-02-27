@@ -65,15 +65,17 @@
 <h2 class="ui center aligned header" style="margin-top: 2em;">Meet Our Featured Cats!</h2>
 
   
-{{#unless featuredCats}}
+{{#unless info.featuredCats}}
   <h3 class="ui message">
     No featured cats! Please see our dashboard for some friendly felines!
   </h3>
 {{/unless}}
   
-  
-{{#each featuredCats}}
-  <section class="ui middle aligned segment" style="margin-top: 2em; padding: 10px;">
+    <section class="ui middle aligned segment" style="margin-top: 2em; padding: 10px;">
+{{#each info.featuredCats}}
+
+
+    
     <div class="ui card">
       
       <div class="image">
@@ -82,19 +84,22 @@
       
       <div class="content">
         <p><bold>Name:</bold> {{name}}</p>
-        <div class="details">
-          <bold>Age:</bold> {{age}} - <bold>Breed:</bold> {{breed}}</div>
-        <div class="description">
+        
+        
+        <p> <bold>Age:</bold> {{age}} </p>
+        <p> <bold>Breed:</bold> {{breed}}</p>
+      
           
           {{#if adoptable}}
             <bold>Adoptable!</bold>
           
           {{else}}
-            <strong>Not available for adoption!</strong>
+            <bold>Not available for adoption!</bold>
           {{/if}}
           
-        </div>
       </div>
     </div>
+     
 {{/each}}
-      </section>
+     </section>
+  </section>

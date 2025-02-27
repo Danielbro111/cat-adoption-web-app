@@ -12,7 +12,7 @@ const start = {
       title: "CA1 Starter App",
       info: catAdoption.getCatInfo()
     };
-    
+    logger.info(viewData.info)
     response.render('start', viewData);   
   },
 };

@@ -5,8 +5,7 @@
     "contact": {
       "phone": "(083) 456-7890",
       "email": "info@catadoptioncenter.com"
-    }
-  },
+    },
   "featuredCats": [
     {
       "name": "Whiskers",
@@ -30,4 +29,5 @@
       "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/shadow%20and%20moon.webp?v=1740491963574"
     }
   ]
+}
 }
