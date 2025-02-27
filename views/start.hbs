@@ -71,15 +71,15 @@
   </h3>
 {{/unless}}
   
-    <section class="ui middle aligned segment" style="margin-top: 2em; padding: 10px;">
+    <section class="ui middle aligned segment" style="margin-top: 2em; padding: 10px; display: flex; ">
 {{#each info.featuredCats}}
 
 
     
-    <div class="ui card">
+    <div class="ui card" style = " margin: auto; width: 250px;">
       
-      <div class="image">
-        <img src="{{image}}" >
+      <div class="image" style="width: 100%; height: 200px;">
+        <img src="{{image}}" style="width: 100%; height: 100%; object-fit: cover; hover">
       </div>
       
       <div class="content">
