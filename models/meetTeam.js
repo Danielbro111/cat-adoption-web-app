@@ -8,17 +8,15 @@ import Functions from './functions.js';
 const meetTheTeam = {
   
   
-  store: new Functions('./models/meetTeam.json', {info: {}}), 
-  collection: 'info',
-  array: 'featuredCats',
+  store: new Functions('./models/meetTeam.json', {teaminfo: {}}), 
+  collection: 'teaminfo',
+  array: 'team',
 
   getTeamInfo() {
     return this.store.findAll(this.collection);
   },
 
-  getFeaturedCats() {
-    return this.store.findAll(this.array);
-  }
+  
   
 };
 

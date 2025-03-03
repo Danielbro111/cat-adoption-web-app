@@ -11,33 +11,22 @@
     Join us in giving these wonderful animals a second chance at a happy life!
   </p>
   
-  <h2> We Love Cats! </h2>
-  
-  
-  <img src = "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/24.jpg?v=1741010585126" class="ui centered image">
-  
-  <section class="team-section">
-    <h2>Meet Our Team</h2>
+<h2> We Love Cats! </h2>
 
-     
-      <div class="member-info">
-        <img src="team-member-1.jpg" alt="Team Member 1">
-        
-          <h3>John Doe</h3>
-          <p>CEO & Founder</p>
-        
-        
-          <h3>Anna Marks</h3>
-        <img src="https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Elise-pic-1.webp?v=1741010900032">
-          <p>Chief Vetinary</p>
+<img src="https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/24.jpg?v=1741010585126" class="ui centered image">
+
+<section class="ui middle aligned segment" style="margin-top: 2em; padding: 10px; display: flex;">
+  {{#each team}}
+    <div class="ui card" style="margin: auto; width: 250px;">
       
-        <img src="team-member-3.jpg" alt="Team Member 3">
-       
-          <h3>Michael Johnson</h3>
-          <p>Lead Developer</p>
-        </div>
-
-   
-   
-  </section>
-
+      <div class="image" style="width: 100%; height: 200px;">
+        <img src="{{image}}" style="width: 100%; height: 100%; object-fit: cover;">
+      </div>
+      
+      <div class="content">
+        <p><strong>Name:</strong> {{name}}</p>
+        <p><strong>Role:</strong> {{role}}</p>
+      </div>
+    </div>
+  {{/each}}
+</section>
