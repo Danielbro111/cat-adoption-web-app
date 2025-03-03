@@ -1,58 +1,53 @@
 {{> menu id="dashboard"}}
 
-<section class="ui left aligned middle aligned segment">
-  <h2 class="ui header" style="margin-top: 2em;">Cat Adoption Centre Dashboard</h2>
+<section class="ui container">
+  <h2 class="ui center aligned header" style="margin-top: 2em;">🐱 Cat Adoption Centre Dashboard</h2>
 
   {{#unless catBreeds}}
-    <h3 class="ui message">
-      No cat breeds available yet! Please check back later.
-    </h3>
+    <div class="ui warning message" style="text-align: center;">
+      <h3>No cat breeds available yet! Please check back later.</h3>
+    </div>
   {{/unless}}
 
   {{#each catBreeds}}
-    <section class="ui left aligned middle aligned segment" style="margin-top: 1.5em;">
-      <h3 class="ui header">
-        {{name}}
-      </h3>
+    <div class="ui raised segment" style="margin-top: 2em; padding: 2em; border-radius: 10px;">
+      <h3 class="ui dividing header">{{name}}</h3>
 
       <div class="ui grid">
-        <div class="four wide column">
-          <bold>Age:</bold>{{age}}<br>
-          <bold>Lifespan:</bold> {{lifespan}}<br>
-          <bold>Size:</bold>{{size}}<br>
-          <bold>Weight:</bold> {{weight}}
+       
+        <div class="five wide column">
+          <p><strong>Age:</strong> {{age}}</p>
+          <p><strong>Lifespan:</strong> {{lifespan}}</p>
+          <p><strong>Size:</strong> {{size}}</p>
+          <p><strong>Weight:</strong> {{weight}}</p>
         </div>
 
-      
-        <div class="four wide column">
-          <bold>Colours:</bold><br>
+     
+        <div class="five wide column">
+          <p><strong>Colours:</strong></p>
           {{#each colour}}
-            <span class="ui label">{{this}}</span>
+            <span class="ui label" style="background-color: {{this}}; color: white; font-weight: bold;">{{this}}</span>
           {{/each}}
 
-          <br><br>
-          <bold>dPersonality:</bold><br>
+          <p style="margin-top: 1em;"><strong>Personality:</strong></p>
           {{#each personality}}
-            <span class="ui label">{{this}}</span>
+            <span class="ui teal label">{{this}}</span>
           {{/each}}
         </div>
 
-        
-        <div class="four wide column">
-          <div class="value">
+       
+        <div class="six wide column">
+          <div style="text-align: center;">
             <a href="/breed/{{id}}">
-              <button class="ui primary button">Learn More</button>
+              <button class="ui primary button" style="margin-bottom: 1em; border-radius: 8px;">Learn More</button>
             </a>
-          
-        
-          <div class="image" style="width: 240px; height: 240px; overflow: hidden; display: flex; align-items: center; justify-content: center; padding: 10px;">
-  <img src="{{image}}" alt="Image" style="width: 100%; height: 100%; object-fit: cover;">
-            
+          </div>
 
-       </div>
+          <div class="ui centered image" style="width: 250px; height: 250px; overflow: hidden; border-radius: 10px; margin: 0 auto;">
+            <img src="{{image}}" style="width: 100%; height: 100%; object-fit: cover;">
+          </div>
         </div>
+      </div>
     </div>
-        </div>
-    </section>
   {{/each}}
 </section>
