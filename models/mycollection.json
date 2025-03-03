@@ -4,6 +4,7 @@
     {
       "id" : "01",
       "breed": "Maine Coon",
+      "name": "Kamile",
       "age": "2 years",
       "lifespan": "12-15 years",
       "size": "Large",
@@ -15,6 +16,7 @@
     {
       "id" : "02",
       "breed": "Siamese",
+      "name": "Rodger",
       "age": "3 years",
       "lifespan": "12-20 years",
       "size": "Medium",
@@ -26,6 +28,7 @@
     {
       "id" : "03",
       "breed": "Persian",
+      "name": "Jack",
       "age": "4 years",
       "lifespan": "12-17 years",
       "size": "Medium",
@@ -37,6 +40,7 @@
     {
       "id" : "04",
       "breed": "Bengal",
+      "name": "Alice",
       "age": "1 year",
       "lifespan": "12-16 years",
       "size": "Medium to Large",
@@ -48,6 +52,7 @@
     {
       "id" : "05",
       "breed": "Ragdoll",
+      "name": "Sarah",
       "age": "3 years",
       "lifespan": "12-17 years",
       "size": "Large",
@@ -59,6 +64,7 @@
     {
       "id" : "06",
       "breed": "Scottish Fold",
+      "name": "Ben",
       "age": "3 months",
       "lifespan": "12-15 years",
       "size": "Medium",
@@ -70,6 +76,7 @@
     {
       "id" : "07",
       "breed": "Sphynx",
+      "name": "Kyle",
       "age": "3 years",
       "lifespan": "12-15 years",
       "size": "Medium",
@@ -81,7 +88,7 @@
     {
       "id" : "08",
       "breed": "British Shorthair",
-      "name": "",
+      "name": "Angel",
       "age": "5 years",
       "lifespan": "12-20 years",
       "size": "Medium to Large",

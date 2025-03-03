@@ -1,7 +1,8 @@
 {{> menu id="dashboard"}}
 
-<section class="ui left aligned middle aligned segment">
-  <h2 class="ui header" style="margin-top: 2em; text-allign: center;">Cat Adoption Centre Dashboard</h2>
+<section class="ui center aligned middle aligned segment">
+  
+ <h1>Cat Adoption Dashboard</h1>
 
   {{#unless catBreeds}}
     <h3 class="ui message">
@@ -11,27 +12,28 @@
 
   {{#each catBreeds}}
     <section class="ui left aligned middle aligned segment" style="margin-top: 2em;">
-        <h3 class="ui header">{{name}}</h3>
+        <h3 class="ui header">{{breed}}</h3>
 
       <div class="ui grid">
         
-        <div class="four wide column">
-          <strong>Age:</strong> {{age}}<br>
-          <strong>Lifespan:</strong> {{lifespan}}<br>
-          <strong>Size:</strong> {{size}}<br>
-          <strong>Weight:</strong> {{weight}}
+        <div class="five wide column">
+          <p><strong>Name:</strong> {{name}}<br></p>
+          <p><strong>Age:</strong> {{age}}<br></p>
+         <p><strong>Lifespan:</strong> {{lifespan}}<br></p>
+          <p><strong>Size:</strong> {{size}}<br></p>
+          <p><strong>Weight:</strong> {{weight}}</p>
         </div>
 
         <div class="four wide column" style="padding: 1.5em;">
           <strong>Colours:</strong><br>
           {{#each colour}}
-            <span class="ui label">{{this}}</span>
+             <span class="ui pink label">{{this}}</span>
           {{/each}}
 
           <br><br>
           <strong>Personality:</strong><br>
           {{#each personality}}
-            <span class="ui label">{{this}}</span>
+            <span class="ui  pink label">{{this}}</span>
           {{/each}}
         </div>
 
