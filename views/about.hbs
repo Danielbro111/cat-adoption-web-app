@@ -16,24 +16,26 @@
 <img src="https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/24.jpg?v=1741010585126" class="ui centered image">
 
   
-  
+  <h2 class="ui center aligned header" style="margin-top: 2em;">Meet Our Team!</h2>
 <section class="ui middle aligned segment" style="margin-top: 2em; padding: 10px; display: flex;">
-  <h2>   Meet the Team</h2>
-  
-    {{#with team}}
-      <div class="ui card" style="margin: auto; width: 250px;">
+ 
+  {{#each team}}
+   
+    <div class="ui card" style="margin: auto; width: 250px;">
       
-        <div class="image" style="width: 100%; height: 200px;">
-          <img src="{{image}}" style="width: 100%; height: 100%; object-fit: cover;">
-        </div>
-        
-        <div class="content">
-          <p><strong>Name:</strong> {{name}}</p>
-          <p><strong>Role:</strong> {{role}}</p>
-        </div>
+      <div class="image" style="width: 100%; height: 200px;">
+        <img src="{{image}}" style="width: 100%; height: 100%; object-fit: cover;">
       </div>
-  
-    {{/with}}
-
+      
+      <div class="content">
+        <p>Name:{{name}}</p>
+        <p>Role:{{role}}</p>
+      </div>
+      
+      
+    </div>
+   
+  {{/each}}
 </section>
   </section>
+
