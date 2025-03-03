@@ -3,7 +3,7 @@
   "catBreeds": [
     {
       "id" : "01",
-      "name": "Maine Coon",
+      "breed": "Maine Coon",
       "age": "2 years",
       "lifespan": "12-15 years",
       "size": "Large",
@@ -14,7 +14,7 @@
     },
     {
       "id" : "02",
-      "name": "Siamese",
+      "breed": "Siamese",
       "age": "3 years",
       "lifespan": "12-20 years",
       "size": "Medium",
@@ -25,7 +25,7 @@
     },
     {
       "id" : "03",
-      "name": "Persian",
+      "breed": "Persian",
       "age": "4 years",
       "lifespan": "12-17 years",
       "size": "Medium",
@@ -36,7 +36,7 @@
     },
     {
       "id" : "04",
-      "name": "Bengal",
+      "breed": "Bengal",
       "age": "1 year",
       "lifespan": "12-16 years",
       "size": "Medium to Large",
@@ -47,7 +47,7 @@
     },
     {
       "id" : "05",
-      "name": "Ragdoll",
+      "breed": "Ragdoll",
       "age": "3 years",
       "lifespan": "12-17 years",
       "size": "Large",
@@ -58,7 +58,7 @@
     },
     {
       "id" : "06",
-      "name": "Scottish Fold",
+      "breed": "Scottish Fold",
       "age": "3 months",
       "lifespan": "12-15 years",
       "size": "Medium",
@@ -69,7 +69,7 @@
     },
     {
       "id" : "07",
-      "name": "Sphynx",
+      "breed": "Sphynx",
       "age": "3 years",
       "lifespan": "12-15 years",
       "size": "Medium",
@@ -80,7 +80,8 @@
     },
     {
       "id" : "08",
-      "name": "British Shorthair",
+      "breed": "British Shorthair",
+      "name": "",
       "age": "5 years",
       "lifespan": "12-20 years",
       "size": "Medium to Large",
