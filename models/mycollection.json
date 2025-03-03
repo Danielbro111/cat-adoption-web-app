@@ -9,7 +9,8 @@
       "size": "Large",
       "weight": "10-18 lbs",
       "colour": ["Brown", "Black", "White", "Grey", "Orange"],
-      "personality": ["Gentle", "Playful", "Affectionate", "Intelligent"]
+      "personality": ["Gentle", "Playful", "Affectionate", "Intelligent"],
+       "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/maine%202.webp?v=1741004282301"
     },
     {
       "id" : "02",
@@ -19,7 +20,8 @@
       "size": "Medium",
       "weight": "8-12 lbs",
       "colour": ["Cream", "Seal", "Chocolate", "Blue", "Lilac"],
-      "personality": ["Vocal", "Social", "Curious", "Energetic"]
+      "personality": ["Vocal", "Social", "Curious", "Energetic"],
+       "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Siamese%203%20ye.jpg?v=1741004278557"
     },
     {
       "id" : "03",
@@ -29,7 +31,8 @@
       "size": "Medium",
       "weight": "7-12 lbs",
       "colour": ["White", "Black", "Blue", "Cream", "Red"],
-      "personality": ["Calm", "Affectionate", "Independent", "Quiet"]
+      "personality": ["Calm", "Affectionate", "Independent", "Quiet"],
+       "image": ""
     },
     {
       "id" : "04",
@@ -39,7 +42,8 @@
       "size": "Medium to Large",
       "weight": "8-15 lbs",
       "colour": ["Brown Spotted", "Snow", "Silver", "Blue"],
-      "personality": ["Energetic", "Playful", "Intelligent", "Confident"]
+      "personality": ["Energetic", "Playful", "Intelligent", "Confident"],
+       "image": ""
     },
     {
       "id" : "05",
@@ -49,17 +53,19 @@
       "size": "Large",
       "weight": "10-20 lbs",
       "colour": ["Seal", "Blue", "Chocolate", "Lilac", "Red"],
-      "personality": ["Docile", "Loyal", "Gentle", "Affectionate"]
+      "personality": ["Docile", "Loyal", "Gentle", "Affectionate"],
+       "image": ""
     },
     {
       "id" : "06",
       "name": "Scottish Fold",
-      "age": "2 years",
+      "age": "3 months",
       "lifespan": "12-15 years",
       "size": "Medium",
       "weight": "6-13 lbs",
       "colour": ["White", "Black", "Blue", "Cream", "Silver"],
-      "personality": ["Sweet", "Loyal", "Friendly", "Intelligent"]
+      "personality": ["Sweet", "Loyal", "Friendly", "Intelligent"],
+       "image": ""
     },
     {
       "id" : "07",
@@ -69,7 +75,8 @@
       "size": "Medium",
       "weight": "6-12 lbs",
       "colour": ["Pink", "Black", "White", "Grey", "Brown"],
-      "personality": ["Affectionate", "Playful", "Curious", "Social"]
+      "personality": ["Affectionate", "Playful", "Curious", "Social"],
+       "image": ""
     },
     {
       "id" : "08",
@@ -79,7 +86,8 @@
       "size": "Medium to Large",
       "weight": "7-17 lbs",
       "colour": ["Blue", "Black", "White", "Cream", "Tabby"],
-      "personality": ["Calm", "Loyal", "Independent", "Quiet"]
+      "personality": ["Calm", "Loyal", "Independent", "Quiet"],
+      "image": ""
     }
   ]
 }
