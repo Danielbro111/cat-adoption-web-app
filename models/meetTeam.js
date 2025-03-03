@@ -8,7 +8,7 @@ import Functions from './functions.js';
 const meetTheTeam = {
   
   
-  store: new Functions('./models/meetTeam.json', {team: [] ), 
+  store: new Functions('./models/meetTeam.json', {team: [] }), 
   collection: 'team',
   
 

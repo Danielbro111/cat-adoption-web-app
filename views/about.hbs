@@ -1,4 +1,4 @@
-x{{> menu id="about"}}
+{{> menu id="about"}}
 
 <section class="ui center aligned middle aligned segment">
   
@@ -17,24 +17,26 @@ x{{> menu id="about"}}
 
   
   <h2 class="ui center aligned header" style="margin-top: 2em;">Meet Our Team!</h2>
-<section class="ui middle aligned segment" style="margin-top: 2em; padding: 10px; display: flex;">
-t  
-    <div class="ui card" style="margin: auto; width: 250px;">
+  
+<section class="ui middle aligned segment" style="margin-top: 2em; padding: 20px; display: flex;">
+
+{{#each team}}
+  
+    <div class="ui card" style="margin: auto; width: 300px ; height: 300px ; padding: 5px;">
       
       <div class="image" >
-        <img src="{{iteam.mage}}" style="width: 100%; height: 100%; object-fit: cover;">
+        <img src="{{image}}" style="width: 200px; height: 200px; object-fit: cover;">
       </div>
       
-      <div class="content">
-        <p>Name:{{name}}</p>
+      <div class="content" , style="margin-left:-28px; margin: - >
+        <p>Name:{{name}} </p>
         <p>Role:{{role}}</p>
       </div>
       
       
     </div>
    
-  {  
+  {{/each}}  
 </section>
   </section>
 
-m
