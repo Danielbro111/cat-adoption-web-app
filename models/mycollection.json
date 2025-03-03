@@ -32,7 +32,7 @@
       "weight": "7-12 lbs",
       "colour": ["White", "Black", "Blue", "Cream", "Red"],
       "personality": ["Calm", "Affectionate", "Independent", "Quiet"],
-       "image": ""
+       "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Persian%204%20year.jpg?v=1741004275678"
     },
     {
       "id" : "04",
@@ -43,7 +43,7 @@
       "weight": "8-15 lbs",
       "colour": ["Brown Spotted", "Snow", "Silver", "Blue"],
       "personality": ["Energetic", "Playful", "Intelligent", "Confident"],
-       "image": ""
+       "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Bengal%201%20year.jpg?v=1741004272585"
     },
     {
       "id" : "05",
@@ -54,7 +54,7 @@
       "weight": "10-20 lbs",
       "colour": ["Seal", "Blue", "Chocolate", "Lilac", "Red"],
       "personality": ["Docile", "Loyal", "Gentle", "Affectionate"],
-       "image": ""
+       "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Ragdoll%203%20year.webp?v=1741004269693"
     },
     {
       "id" : "06",
@@ -65,7 +65,7 @@
       "weight": "6-13 lbs",
       "colour": ["White", "Black", "Blue", "Cream", "Silver"],
       "personality": ["Sweet", "Loyal", "Friendly", "Intelligent"],
-       "image": ""
+       "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Scottish%20Fold%201.webp?v=1741004266906"
     },
     {
       "id" : "07",
@@ -76,7 +76,7 @@
       "weight": "6-12 lbs",
       "colour": ["Pink", "Black", "White", "Grey", "Brown"],
       "personality": ["Affectionate", "Playful", "Curious", "Social"],
-       "image": ""
+       "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Sphynx%201.jpg?v=1741004263309"
     },
     {
       "id" : "08",
@@ -87,7 +87,7 @@
       "weight": "7-17 lbs",
       "colour": ["Blue", "Black", "White", "Cream", "Tabby"],
       "personality": ["Calm", "Loyal", "Independent", "Quiet"],
-      "image": ""
+      "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/British%20Shorthair.jpg?v=1741004261365"
     }
   ]
 }
