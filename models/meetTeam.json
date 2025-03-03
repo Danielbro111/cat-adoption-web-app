@@ -1,0 +1,29 @@
+{
+  "team": [
+    {
+      "name": "Daniel Brophy",
+      "role": "Founder",
+      "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/images%20(3).jpg?v=1741011732325"
+    },
+    {
+      "name": "Sinead Marks",
+      "role": "Director of Operations",
+      "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/images%20(1).jpg?v=1741011482692"
+    },
+    {
+      "name": "Jodie Doyle",
+      "role": "Chief Veteinary",
+      "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Elise-pic-1.webp?v=1741010900032"
+    },
+    {
+      "name": "James Daly",
+      "role": "Digital Content Creator",
+      "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/curly-man-with-broad-smile-shows-perfect-teeth-being-amused-by-interesting-talk-has-bushy-curly-dark-hair-stands-indoor-against-white-blank-wall_273609-17092.avif?v=1741011645830"
+    },
+    {
+      "name": "Mary Jonhson",
+      "role": "Adoption Coordinator",
+      "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/istockphoto-522185081-612x612.jpg?v=1741011551204"
+    }
+  ]
+}
