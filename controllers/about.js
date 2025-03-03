@@ -12,6 +12,7 @@ const about = {
       team: meetTeam.getTeamInfo()
       
     };
+    logger.debug(viewData.team);
     
     response.render("about", viewData);
   },
