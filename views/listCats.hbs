@@ -1,0 +1,53 @@
+{{> menu id = "listCats"}}
+
+<section class="ui center aligned middle aligned segment">
+  <h2 class="ui header">
+    List of Cat Breeds
+  </h2>
+  
+  {{#each catBreeds}}
+    <h3 class="ui header">{{breed}}</h3>
+    
+    <table class="ui fixed striped table">
+      <thead>
+        <tr>
+          <th>Cat Name</th>
+          <th>Age</th>
+          <th>Lifespan</th>
+          <th>Size</th>
+          <th>Weight</th>
+          <th>Colour</th>
+          <th>Personality</th>
+          <th>Fun Fact</th>
+        </tr>
+      </thead>
+      <tbody>
+        {{#each cats}}
+        <tr>
+          <td>{{name}}</td>
+          <td>{{age}}</td>
+          <td>{{lifespan}}</td>
+          <td>{{size}}</td>
+          <td>{{weight}}</td>
+          <td>
+            {{#each colour}}
+              <div>{{this}}</div>
+            {{/each}}
+          </td>
+          <td>
+            {{#each personality}}
+              <div>{{this}}</div>
+            {{/each}}
+          </td>
+          <td>{{funFact}}</td>
+        </tr>
+        {{/each}}
+      </tbody>
+    </table>
+  {{/each}}
+
+  {{#unless catBreeds}}
+    <h3 class="ui message">No cats available!</h3>
+  {{/unless}}
+
+</section>
