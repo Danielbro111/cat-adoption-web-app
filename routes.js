@@ -8,7 +8,7 @@ const router = express.Router();
 import start from './controllers/start.js';
 import dashboard from './controllers/dashboard.js';
 import about from './controllers/about.js';
-import 
+import catlist from './controllers/catlist.js';
 
 
 //get routes for controllers 
