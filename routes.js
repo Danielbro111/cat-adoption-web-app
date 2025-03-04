@@ -17,6 +17,6 @@ router.get ('/about', about.createView );
 
 router.get('/error', (request, response) => response.status(404).end('Page not found'));
 
-
+router.get('/catBreeds/:id', catBreeds.createView);
 
 export default router;
