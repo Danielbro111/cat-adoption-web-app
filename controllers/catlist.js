@@ -5,14 +5,14 @@ import catBreeds from '../models/bigcollection.js';
 
 const catlist = {
   createView(request, response) {
-    const catBreedId = request.params.id;
-    logger.debug('CatBreed ID = ' + catBreedId);
+       logger.info("Cat page loading!");
+    
     
     const viewData = {
       title: 'CatBreeds',
-      catBreed: catBreeds. getCat(catBreedId)
+      catBreed: catBreeds. getAllCats()
     };
-
+logger.debug(viewData.catBreed);
     response.render('catlist', viewData);
   },
 };
