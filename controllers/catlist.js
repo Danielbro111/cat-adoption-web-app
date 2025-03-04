@@ -1,7 +1,7 @@
 'use strict';
 
 import logger from '../utils/logger.js';
-import catBreeds from '../models/mycollection.js';
+import catBreeds from '../models/bigcollection.js';
 
 const catlist = {
   createView(request, response) {
