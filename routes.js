@@ -9,6 +9,7 @@ import start from './controllers/start.js';
 import dashboard from './controllers/dashboard.js';
 import about from './controllers/about.js';
 import catdetails from './controllers/allCats.js';
+import catdisplay from './controllers/catdetails.js';
 
 
 //get routes for controllers 
@@ -18,8 +19,8 @@ router.get ('/about', about.createView );
 router.get ('/catdetails', catdetails.createView);
 
 
+router.get('/catdisplay/:id', catdisplay.createView);
 
 router.get('/error', (request, response) => response.status(404).end('Page not found'));
 
-router.get('/playlist/:id', playlist.createView);
 export default router;

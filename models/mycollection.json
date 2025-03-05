@@ -1,4 +1,3 @@
-
 {
   "catBreeds": [
     {
@@ -11,7 +10,23 @@
       "weight": "10-18 lbs",
       "colour": ["Brown", "Black", "White", "Grey", "Orange"],
       "personality": ["Gentle", "Playful", "Affectionate", "Intelligent"],
-       "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/maine%202.webp?v=1741004282301"
+      "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/maine%202.webp?v=1741004282301",
+      "cats": [
+        {
+          "id": "01",
+          "name": "Leo",
+          "age": "3 years",
+          "colour": ["Brown"],
+          "weight": "14 lbs"
+        },
+        {
+          "id": "02",
+          "name": "Bella",
+          "age": "2 years",
+          "colour": ["Black"],
+          "weight": "12 lbs"
+        }
+      ]
     },
     {
       "id" : "02",
@@ -23,7 +38,23 @@
       "weight": "8-12 lbs",
       "colour": ["Cream", "Seal", "Chocolate", "Blue", "Lilac"],
       "personality": ["Vocal", "Social", "Curious", "Energetic"],
-       "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/siamese-cat-cover.webp?v=1741005315108"
+      "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/siamese-cat-cover.webp?v=1741005315108",
+      "cats": [
+        {
+          "id": "03",
+          "name": "Milo",
+          "age": "2 years",
+          "colour": ["Seal"],
+          "weight": "10 lbs"
+        },
+        {
+          "id": "04",
+          "name": "Luna",
+          "age": "4 years",
+          "colour": ["Chocolate"],
+          "weight": "9 lbs"
+        }
+      ]
     },
     {
       "id" : "03",
@@ -35,7 +66,23 @@
       "weight": "7-12 lbs",
       "colour": ["White", "Black", "Blue", "Cream", "Red"],
       "personality": ["Calm", "Affectionate", "Independent", "Quiet"],
-       "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Persian%204%20year.jpg?v=1741004275678"
+      "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Persian%204%20year.jpg?v=1741004275678",
+      "cats": [
+        {
+          "id": "05",
+          "name": "Oscar",
+          "age": "5 years",
+          "colour": ["White"],
+          "weight": "11 lbs"
+        },
+        {
+          "id": "06",
+          "name": "Sophie",
+          "age": "2 years",
+          "colour": ["Blue"],
+          "weight": "9 lbs"
+        }
+      ]
     },
     {
       "id" : "04",
@@ -47,7 +94,23 @@
       "weight": "8-15 lbs",
       "colour": ["Brown Spotted", "Snow", "Silver", "Blue"],
       "personality": ["Energetic", "Playful", "Intelligent", "Confident"],
-       "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Bengal%201%20year.jpg?v=1741004272585"
+      "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Bengal%201%20year.jpg?v=1741004272585",
+      "cats": [
+        {
+          "id": "07",
+          "name": "Zara",
+          "age": "1 year",
+          "colour": ["Brown Spotted"],
+          "weight": "10 lbs"
+        },
+        {
+          "id": "08",
+          "name": "Max",
+          "age": "2 years",
+          "colour": ["Silver"],
+          "weight": "12 lbs"
+        }
+      ]
     },
     {
       "id" : "05",
@@ -59,7 +122,23 @@
       "weight": "10-20 lbs",
       "colour": ["Seal", "Blue", "Chocolate", "Lilac", "Red"],
       "personality": ["Docile", "Loyal", "Gentle", "Affectionate"],
-       "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Ragdoll%203%20year.webp?v=1741004269693"
+      "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Ragdoll%203%20year.webp?v=1741004269693",
+      "cats": [
+        {
+          "id": "09",
+          "name": "Charlie",
+          "age": "4 years",
+          "colour": ["Seal"],
+          "weight": "16 lbs"
+        },
+        {
+          "id": "10",
+          "name": "Lucy",
+          "age": "3 years",
+          "colour": ["Blue"],
+          "weight": "14 lbs"
+        }
+      ]
     },
     {
       "id" : "06",
@@ -71,7 +150,23 @@
       "weight": "6-13 lbs",
       "colour": ["White", "Black", "Blue", "Cream", "Silver"],
       "personality": ["Sweet", "Loyal", "Friendly", "Intelligent"],
-       "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Scottish%20Fold%201.webp?v=1741004266906"
+      "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Scottish%20Fold%201.webp?v=1741004266906",
+      "cats": [
+        {
+          "id": "11",
+          "name": "Gizmo",
+          "age": "6 months",
+          "colour": ["Cream"],
+          "weight": "7 lbs"
+        },
+        {
+          "id": "12",
+          "name": "Cleo",
+          "age": "1 year",
+          "colour": ["Silver"],
+          "weight": "10 lbs"
+        }
+      ]
     },
     {
       "id" : "07",
@@ -83,7 +178,23 @@
       "weight": "6-12 lbs",
       "colour": ["Pink", "Black", "White", "Grey", "Brown"],
       "personality": ["Affectionate", "Playful", "Curious", "Social"],
-       "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Sphynx%201.jpg?v=1741004263309"
+      "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Sphynx%201.jpg?v=1741004263309",
+      "cats": [
+        {
+          "id": "13",
+          "name": "Toby",
+          "age": "2 years",
+          "colour": ["Grey"],
+          "weight": "9 lbs"
+        },
+        {
+          "id": "14",
+          "name": "Nala",
+          "age": "4 years",
+          "colour": ["Black"],
+          "weight": "8 lbs"
+        }
+      ]
     },
     {
       "id" : "08",
@@ -95,7 +206,23 @@
       "weight": "7-17 lbs",
       "colour": ["Blue", "Black", "White", "Cream", "Tabby"],
       "personality": ["Calm", "Loyal", "Independent", "Quiet"],
-      "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/British%20Shorthair.jpg?v=1741004261365"
+      "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/British%20Shorthair.jpg?v=1741004261365",
+      "cats": [
+        {
+          "id": "15",
+          "name": "Leo",
+          "age": "6 years",
+          "colour": ["Blue"],
+          "weight": "13 lbs"
+        },
+        {
+          "id": "16",
+          "name": "Molly",
+          "age": "3 years",
+          "colour": ["Tabby"],
+          "weight": "10 lbs"
+        }
+      ]
     }
   ]
 }
