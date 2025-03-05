@@ -3,7 +3,7 @@
 import logger from "../utils/logger.js";
 import catDetails from '../models/bigcollection.js';
 
-const allCats = {
+const catdetails  = {
   createView(request, response) {
     logger.info("Cat page loading!");
     
@@ -18,4 +18,4 @@ const allCats = {
   },
 };
 
-export default allCats;
+export default catdetails ;

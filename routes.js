@@ -15,7 +15,7 @@ import catdetails from './controllers/allCats.js';
 router.get('/', start.createView);
 router.get ('/dashboard', dashboard.createView);
 router.get ('/about', about.createView );
-router.get ('/Our Feline Friends', catdetails.createView)
+router.get ('/catdetails', catdetails.createView);
 
 
 
