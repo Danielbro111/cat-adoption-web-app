@@ -3,7 +3,38 @@
 
 <section class="ui center aligned middle aligned segment">
 
-     
+  <div class="container">
+  {{#each catBreeds}}
+    <div class="breed-card">
+      <h2>{{catBreeds.breed}}</h2>
+      <div class="cat-list">
+        {{#each breed.cats as |cat|}}
+          <div class="cat-card">
+            <img src="{{cat.image}}" alt="{{cat.name}}">
+            <h3>{{cat.name}}</h3>
+            <p><strong>Age:</strong> {{cat.age}}</p>
+            <p><strong>Lifespan:</strong> {{cat.lifespan}}</p>
+            <p><strong>Size:</strong> {{cat.size}}</p>
+            <p><strong>Weight:</strong> {{cat.weight}}</p>
+            <p><strong>Colours:</strong></p>
+            <ul>
+              {{#each cat.colour as |color|}}
+                <li>{{color}}</li>
+              {{/each}}
+            </ul>
+            <p><strong>Personality:</strong></p>
+            <ul>
+              {{#each cat.personality as |trait|}}
+                <li>{{trait}}</li>
+              {{/each}}
+            </ul>
+            <p><strong>Fun Fact:</strong> {{cat.funFact}}</p>
+          </div>
+        {{/each}}
+      </div>
+    </div>
+  {{/each}}
+</div>
 
 
 </section>

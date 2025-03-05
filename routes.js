@@ -8,6 +8,7 @@ const router = express.Router();
 import start from './controllers/start.js';
 import dashboard from './controllers/dashboard.js';
 import about from './controllers/about.js';
+
 import catdetails from './controllers/allCats.js';
 import catdisplay from './controllers/catdetails.js';
 
@@ -19,7 +20,7 @@ router.get ('/about', about.createView );
 router.get ('/catdetails', catdetails.createView);
 
 
-router.get('/catdisplay/:id', catdisplay.createView);
+router.get('/listCats/:id', catdisplay.createView);
 
 router.get('/error', (request, response) => response.status(404).end('Page not found'));
 

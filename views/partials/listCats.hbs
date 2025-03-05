@@ -1,4 +1,4 @@
-{{#if  singleCat.catBreeds}}
+{{#if  singleCat.cats}}
 
 <table class="ui fixed striped table">
   <thead>
@@ -6,24 +6,22 @@
       <th>Breed</th>
       <th>Name</th>
       <th>Age</th>
-      <th>Lifespan</th>
-      <th>Size</th>
-      <th>Weight</th>
       <th>Colour</th>
-      <th>Personality</th>
+        <th>Weight</th>
     </tr>
   </thead>
   
   <tbody>
-    {{#each catBreeds}}
+    {{#each singleCat.cats}}
       <tr>
         <td>{{breed}}</td>
         <td>{{name}}</td>
         <td>{{age}}</td>
-        <td>{{lifespan}}</td>
-        <td>{{size}}</td>
+        <td>{{colour}}</td>
         <td>{{weight}}</td>
         <td>
+          
+    
           <ul>
             {{#each colour}}
               <li>{{this}}</li>
@@ -45,7 +43,7 @@
 
   {{else}}
     <h3 class="ui message">
-      Empty playlist!
+      No cats for adoption!
     </h3>
 
 {{/if}}
