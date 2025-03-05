@@ -6,14 +6,14 @@ import cats from '../models/mycollection.js';
 const catdisplay = {
   createView(request, response) {
     const catId = request.params.id;
-    logger.debug('Playlist id = ' + playlistId);
+    logger.debug('Cat Id = ' + catId);
     
     const viewData = {
-      title: 'Playlist',
-      singlePlaylist: cats.getPlaylist(playlistId)
+      title: 'Catbreeds',
+      singleCat: cats.getCat(catId)
     };
 
-    response.render('playlist', viewData);
+    response.render('catdisplay', viewData);
   },
 };
 
