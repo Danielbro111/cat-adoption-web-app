@@ -20,7 +20,7 @@ router.get ('/about', about.createView );
 router.get ('/catdetails', catdetails.createView);
 
 
-router.get('/listCats/:id', catdisplay.createView);
+router.get('/catdisplay/:id', catdisplay.createView);
 
 router.get('/error', (request, response) => response.status(404).end('Page not found'));
 
