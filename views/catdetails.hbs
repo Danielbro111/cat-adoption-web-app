@@ -5,20 +5,20 @@
 {{/unless}}
 
   <section class="ui center aligned segment" style="margin-top: 2em;">
-  <h1>
-    <strong>The rest of our furry friends!</strong>
-  </h1>
     
+  <h1><strong>The rest of our furry friends!</strong></h1>
+    
+    {{#each catBreeds}}
   <div class="ui stackable cards">
-    {{#each catBreeds.cats}}
+  
       <div class="ui card">
-        <div class="content">
+       
           <h3>{{breed}}</h3>
-          {{#each cats}}
+         
             <div class="ui card">
-              <div class="content">
+              
                 <div class="header">{{name}}</div>
-                <div class="meta">{{age}} old</div>
+                {{age}} old</div>
                 <div class="description">
                   <p><strong>Lifespan:</strong> {{lifespan}}</p>
                   <p><strong>Size:</strong> {{size}}</p>
@@ -37,9 +37,8 @@
                 </div>
               </div>
             </div>
-          {{/each}}
-        </div>
-      </div>
+          
+  
     {{/each}}
-  </div>
+  
 </section>

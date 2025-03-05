@@ -17,4 +17,5 @@ const catdisplay = {
   },
 };
 
+
 export default catdisplay;
