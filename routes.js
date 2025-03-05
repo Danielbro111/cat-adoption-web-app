@@ -21,5 +21,5 @@ router.get ('/catdetails', catdetails.createView);
 
 router.get('/error', (request, response) => response.status(404).end('Page not found'));
 
-
+router.get('/playlist/:id', playlist.createView);
 export default router;

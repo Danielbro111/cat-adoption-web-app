@@ -1,25 +1,49 @@
 {{#if  singleCat.catBreeds}}
 
-  <table class="ui fixed striped table">
-    <thead>
+<table class="ui fixed striped table">
+  <thead>
+    <tr>
+      <th>Breed</th>
+      <th>Name</th>
+      <th>Age</th>
+      <th>Lifespan</th>
+      <th>Size</th>
+      <th>Weight</th>
+      <th>Colour</th>
+      <th>Personality</th>
+      <th>Image</th>
+    </tr>
+  </thead>
+  
+  <tbody>
+    {{#each catBreeds}}
       <tr>
-        <th>Song</th>
-        <th>Artist</th>
+        <td>{{breed}}</td>
+        <td>{{name}}</td>
+        <td>{{age}}</td>
+        <td>{{lifespan}}</td>
+        <td>{{size}}</td>
+        <td>{{weight}}</td>
+        <td>
+          <ul>
+            {{#each colour}}
+              <li>{{this}}</li>
+            {{/each}}
+          </ul>
+        </td>
+        <td>
+          <ul>
+            {{#each personality}}
+              <li>{{this}}</li>
+            {{/each}}
+          </ul>
+        </td>
+        <td><img src="{{image}}" alt="{{name}}" width="100" height="100"></td>
       </tr>
-    </thead>
-    <tbody>
-      {{#each singleCat.catBreeds}}
-        <tr>
-          <td>
-            {{title}}
-          </td>
-          <td>
-            {{artist}}
-          </td>
-        </tr>
-      {{/each}}
-    </tbody>
-  </table>
+    {{/each}}
+  </tbody>
+</table>
+
 
   {{else}}
     <h3 class="ui message">
