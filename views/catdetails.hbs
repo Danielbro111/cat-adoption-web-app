@@ -1,40 +1,47 @@
-{{> menu id="catdetails "}}
 
 
-<section class="ui center aligned middle aligned segment">
+{{#unless catBreeds}}
+  <h3 class="ui message">No cat breeds available</h3>
+{{/unless}}
 
-  <div class="container">
-  {{#each catBreeds}}
-    <div class="breed-card">
-      <h2>{{catBreeds.breed}}</h2>
-      <div class="cat-list">
-        {{#each breed.cats as |cat|}}
-          <div class="cat-card">
-            <img src="{{cat.image}}" alt="{{cat.name}}">
-            <h3>{{cat.name}}</h3>
-            <p><strong>Age:</strong> {{cat.age}}</p>
-            <p><strong>Lifespan:</strong> {{cat.lifespan}}</p>
-            <p><strong>Size:</strong> {{cat.size}}</p>
-            <p><strong>Weight:</strong> {{cat.weight}}</p>
-            <p><strong>Colours:</strong></p>
-            <ul>
-              {{#each cat.colour as |color|}}
-                <li>{{color}}</li>
-              {{/each}}
-            </ul>
-            <p><strong>Personality:</strong></p>
-            <ul>
-              {{#each cat.personality as |trait|}}
-                <li>{{trait}}</li>
-              {{/each}}
-            </ul>
-            <p><strong>Fun Fact:</strong> {{cat.funFact}}</p>
-          </div>
-        {{/each}}
-      </div>
-    </div>
-  {{/each}}
-</div>
-
-
+    <section class="ui left aligned middle aligned segment" style="margin-top: 2em;">
+  <h1>
+    <strong>The rest of our furry friends! style</strong>
+  </h1>
+  <div class="ui stackable cards">
+    {{#each catBreeds}}
+          <h3>{{breed}}</h3>
+          
+        </div>
+        <div class="content">
+          {{#each cats}}
+            <div class="ui card">
+              <div class="image">
+                <img src="{{image}}" alt="{{name}}">
+              </div>
+              <div class="content">
+                <div class="header">{{name}}</div>
+                <div class="meta">{{age}} old</div>
+                <div class="description">
+                  <p><strong>Lifespan:</strong> {{lifespan}}</p>
+                  <p><strong>Size:</strong> {{size}}</p>
+                  <p><strong>Weight:</strong> {{weight}}</p>
+                  <p><strong>Colours:</strong> 
+                    {{#each colour}}
+                      {{this}}{{#unless @last}}, {{/unless}}
+                    {{/each}}
+                  </p>
+                  <p><strong>Personality:</strong> 
+                    {{#each personality}}
+                      {{this}}{{#unless @last}}, {{/unless}}
+                    {{/each}}
+                  </p>
+                  <p><strong>Fun Fact:</strong> {{funFact}}</p>
+                </div>
+              </div>
+            </div>
+          {{/each}}
+           </div>
+    {{/each}}
 </section>
+
