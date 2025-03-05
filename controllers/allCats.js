@@ -14,8 +14,8 @@ const catdetails  = {
     };
     logger.debug(viewData.team);
     
-    response.render("catdetails ", viewData);
+    response.render("catdetails", viewData);
   },
 };
 
-export default catdetails ;
+export default catdetails;
