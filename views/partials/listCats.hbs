@@ -7,7 +7,9 @@
       <th>Name</th>
       <th>Age</th>
       <th>Colour</th>
-        <th>Weight</th>
+      <th>Weight</th>
+      <th>Personality</th>
+      <th>Color</th>
     </tr>
   </thead>
   
@@ -19,22 +21,8 @@
         <td>{{age}}</td>
         <td>{{colour}}</td>
         <td>{{weight}}</td>
-        <td>
-          
-    
-          <ul>
-            {{#each colour}}
-              <li>{{this}}</li>
-            {{/each}}
-          </ul>
-        </td>
-        <td>
-          <ul>
-            {{#each personality}}
-              <li>{{this}}</li>
-            {{/each}}
-          </ul>
-        </td>
+        <td>{{personality}}</td>
+        <td>{{colour}}</td>
       </tr>
     {{/each}}
   </tbody>
