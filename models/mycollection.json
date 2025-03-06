@@ -81,7 +81,48 @@
           "age": "4 years",
           "colour": ["Chocolate"],
           "weight": "9 lbs"
-        }
+        },
+        {
+  "id": "09",
+  "name": "Simba",
+  "age": "3 years",
+  "colour": ["Blue"],
+  "weight": "11 lbs"
+},
+{
+  "id": "10",
+  "name": "Cleo",
+  "age": "5 years",
+  "colour": ["Lilac"],
+  "weight": "8 lbs"
+},{
+  "id": "11",
+  "name": "Oliver",
+  "age": "2 years",
+  "colour": ["Red"],
+  "weight": "12 lbs"
+},
+{
+  "id": "12",
+  "name": "Willow",
+  "age": "4 years",
+  "colour": ["Cream"],
+  "weight": "9.5 lbs"
+},
+{
+  "id": "13",
+  "name": "Nala",
+  "age": "3 years",
+  "colour": ["Cinnamon"],
+  "weight": "10 lbs"
+},
+{
+  "id": "14",
+  "name": "Felix",
+  "age": "6 years",
+  "colour": ["Black"],
+  "weight": "11.2 lbs"
+}
       ]
     },
     {
@@ -97,19 +138,48 @@
       "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Persian%204%20year.jpg?v=1741004275678",
       "cats": [
         {
-          "id": "09",
+          "id": "15",
           "name": "Oscar",
           "age": "5 years",
           "colour": ["White"],
           "weight": "11 lbs"
         },
         {
-          "id": "10",
+          "id": "16",
           "name": "Sophie",
           "age": "2 years",
           "colour": ["Blue"],
           "weight": "9 lbs"
-        }
+        },
+        {
+  "id": "17",
+  "name": "Charlie",
+  "age": "3 years",
+  "colour": ["Silver"],
+  "weight": "10.5 lbs"
+},
+{
+  "id": "18",
+  "name": "Lily",
+  "age": "4 years",
+  "colour": ["Fawn"],
+  "weight": "8.8 lbs"
+},
+{
+  "id": "19",
+  "name": "Max",
+  "age": "5 years",
+  "colour": ["Black & White"],
+  "weight": "12 lbs"
+},
+{
+  "id": "20",
+  "name": "Bella",
+  "age": "3 years",
+  "colour": ["Chocolate"],
+  "weight": "9.3 lbs"
+}
+
       ]
     },
     {
@@ -125,19 +195,34 @@
       "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Bengal%201%20year.jpg?v=1741004272585",
       "cats": [
         {
-          "id": "011",
+          "id": "21",
           "name": "Zara",
           "age": "1 year",
           "colour": ["Brown Spotted"],
           "weight": "10 lbs"
         },
         {
-          "id": "12",
+          "id": "22",
           "name": "Max",
           "age": "2 years",
           "colour": ["Silver"],
           "weight": "12 lbs"
-        }
+        },
+        {
+  "id": "23",
+  "name": "Daisy",
+  "age": "3 years",
+  "colour": ["Golden"],
+  "weight": "9.5 lbs"
+},
+{
+  "id": "24",
+  "name": "Leo",
+  "age": "4 years",
+  "colour": ["Gray"],
+  "weight": "11 lbs"
+}
+
       ]
     },
     {
@@ -153,19 +238,34 @@
       "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Ragdoll%203%20year.webp?v=1741004269693",
       "cats": [
         {
-          "id": "13",
+          "id": "25",
           "name": "Charlie",
           "age": "4 years",
           "colour": ["Seal"],
           "weight": "16 lbs"
         },
         {
-          "id": "14",
+          "id": "26",
           "name": "Lucy",
           "age": "3 years",
           "colour": ["Blue"],
           "weight": "14 lbs"
-        }
+        },
+        {
+  "id": "27",
+  "name": "Mochi",
+  "age": "2 years",
+  "colour": ["Cream"],
+  "weight": "10.5 lbs"
+},
+{
+  "id": "28",
+  "name": "Felix",
+  "age": "5 years",
+  "colour": ["Black & White"],
+  "weight": "15 lbs"
+}
+
       ]
     },
     {
@@ -181,14 +281,14 @@
       "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Scottish%20Fold%201.webp?v=1741004266906",
       "cats": [
         {
-          "id": "15",
+          "id": "29",
           "name": "Gizmo",
           "age": "6 months",
           "colour": ["Cream"],
           "weight": "7 lbs"
         },
         {
-          "id": "16",
+          "id": "30",
           "name": "Cleo",
           "age": "1 year",
           "colour": ["Silver"],
@@ -209,14 +309,14 @@
       "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Sphynx%201.jpg?v=1741004263309",
       "cats": [
         {
-          "id": "17",
+          "id": "31",
           "name": "Toby",
           "age": "2 years",
           "colour": ["Grey"],
           "weight": "9 lbs"
         },
         {
-          "id": "18",
+          "id": "32",
           "name": "Nala",
           "age": "4 years",
           "colour": ["Black"],
@@ -237,14 +337,14 @@
       "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/British%20Shorthair.jpg?v=1741004261365",
       "cats": [
         {
-          "id": "19",
+          "id": "33",
           "name": "Leo",
           "age": "6 years",
           "colour": ["Blue"],
           "weight": "13 lbs"
         },
         {
-          "id": "20",
+          "id": "34",
           "name": "Molly",
           "age": "3 years",
           "colour": ["Tabby"],
