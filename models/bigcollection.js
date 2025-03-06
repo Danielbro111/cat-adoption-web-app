@@ -5,8 +5,8 @@ import JsonStore from './functions.js';
 
 const cats = {
 
-  store: new JsonStore('./models/bigcollection.json', { catBreeds: [] }),
-  collection: 'Catbreeds',
+  store: new JsonStore('./models/bigcollection.json', { BigCats: [] }),
+  collection: 'BigCats',
   array: 'cats',
 
   getAllCats() {

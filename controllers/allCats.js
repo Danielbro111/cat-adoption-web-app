@@ -9,10 +9,10 @@ const catdetails  = {
     
     const viewData = {
       title: "Our Feline Friends  ",
-      team: catDetails.getAllCats() 
+      catBreeds: catDetails.getAllCats() 
       
     };
-    logger.debug(viewData.team);
+    logger.debug(viewData.catBreeds);
     
     response.render("catdetails", viewData);
   },
