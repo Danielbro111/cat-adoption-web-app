@@ -104,7 +104,7 @@
           "weight": "11 lbs"
         },
         {
-          "id": "0",
+          "id": "10",
           "name": "Sophie",
           "age": "2 years",
           "colour": ["Blue"],
@@ -125,14 +125,14 @@
       "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Bengal%201%20year.jpg?v=1741004272585",
       "cats": [
         {
-          "id": "07",
+          "id": "011",
           "name": "Zara",
           "age": "1 year",
           "colour": ["Brown Spotted"],
           "weight": "10 lbs"
         },
         {
-          "id": "08",
+          "id": "12",
           "name": "Max",
           "age": "2 years",
           "colour": ["Silver"],
@@ -153,14 +153,14 @@
       "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Ragdoll%203%20year.webp?v=1741004269693",
       "cats": [
         {
-          "id": "09",
+          "id": "13",
           "name": "Charlie",
           "age": "4 years",
           "colour": ["Seal"],
           "weight": "16 lbs"
         },
         {
-          "id": "10",
+          "id": "14",
           "name": "Lucy",
           "age": "3 years",
           "colour": ["Blue"],
@@ -181,14 +181,14 @@
       "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Scottish%20Fold%201.webp?v=1741004266906",
       "cats": [
         {
-          "id": "11",
+          "id": "15",
           "name": "Gizmo",
           "age": "6 months",
           "colour": ["Cream"],
           "weight": "7 lbs"
         },
         {
-          "id": "12",
+          "id": "16",
           "name": "Cleo",
           "age": "1 year",
           "colour": ["Silver"],
@@ -209,14 +209,14 @@
       "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Sphynx%201.jpg?v=1741004263309",
       "cats": [
         {
-          "id": "13",
+          "id": "17",
           "name": "Toby",
           "age": "2 years",
           "colour": ["Grey"],
           "weight": "9 lbs"
         },
         {
-          "id": "14",
+          "id": "18",
           "name": "Nala",
           "age": "4 years",
           "colour": ["Black"],
@@ -237,14 +237,14 @@
       "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/British%20Shorthair.jpg?v=1741004261365",
       "cats": [
         {
-          "id": "15",
+          "id": "19",
           "name": "Leo",
           "age": "6 years",
           "colour": ["Blue"],
           "weight": "13 lbs"
         },
         {
-          "id": "16",
+          "id": "20",
           "name": "Molly",
           "age": "3 years",
           "colour": ["Tabby"],

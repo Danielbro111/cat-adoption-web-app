@@ -16,17 +16,6 @@
           "funFact": "Maine Coons are known for being one of the largest domesticated cat breeds!"
         },
         {
-          "name": "Oliver",
-          "age": "3 years",
-          "lifespan": "12-15 years",
-          "size": "Large",
-          "weight": "15 lbs",
-          "colour": ["Orange", "White", "Brown"],
-          "personality": ["Affectionate", "Loyal", "Curious"],
-          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/maine%20coon%202.jpg?v=1741100023100",
-          "funFact": "Maine Coons are often called 'gentle giants' due to their large size and friendly demeanor."
-        },
-        {
           "name": "Luna",
           "age": "4 years",
           "lifespan": "12-15 years",
@@ -55,17 +44,6 @@
           "funFact": "Siamese cats are one of the most vocal breeds, often 'talking' to their owners."
         },
         {
-          "name": "Bella",
-          "age": "2 years",
-          "lifespan": "12-20 years",
-          "size": "Medium",
-          "weight": "8 lbs",
-          "colour": ["Seal", "Blue", "Chocolate"],
-          "personality": ["Energetic", "Curious", "Affectionate"],
-          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/siamese2.jpg?v=1741100085121",
-          "funFact": "Siamese cats are known for their striking blue almond-shaped eyes!"
-        },
-        {
           "name": "Tommy",
           "age": "1 year",
           "lifespan": "12-20 years",
@@ -82,17 +60,6 @@
       "id": "03",
       "breed": "Persian",
       "cats": [
-        {
-          "name": "Jack",
-          "age": "4 years",
-          "lifespan": "12-17 years",
-          "size": "Medium",
-          "weight": "7-12 lbs",
-          "colour": ["White", "Black", "Blue", "Cream", "Red"],
-          "personality": ["Calm", "Affectionate", "Independent", "Quiet"],
-          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Persian%204%20year.jpg?v=1741004275678",
-          "funFact": "Persians are one of the oldest and most recognizable cat breeds, known for their long, luxurious coats."
-        },
         {
           "name": "Simba",
           "age": "6 years",
@@ -131,28 +98,6 @@
           "personality": ["Energetic", "Playful", "Intelligent", "Confident"],
           "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Bengal%201%20year.jpg?v=1741004272585",
           "funFact": "Bengals have a distinctive wild look due to their leopard-like spots and rosettes!"
-        },
-        {
-          "name": "Leo",
-          "age": "2 years",
-          "lifespan": "12-16 years",
-          "size": "Large",
-          "weight": "12 lbs",
-          "colour": ["Silver", "Blue"],
-          "personality": ["Energetic", "Confident", "Playful"],
-          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Bengal%202.jpg?v=1741100000095",
-          "funFact": "Bengals are very energetic and often love playing in water!"
-        },
-        {
-          "name": "Ruby",
-          "age": "2 years",
-          "lifespan": "12-16 years",
-          "size": "Medium to Large",
-          "weight": "13 lbs",
-          "colour": ["Brown Spotted", "Blue"],
-          "personality": ["Energetic", "Playful", "Social"],
-          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Bengal%206.jpg?v=1741100000115",
-          "funFact": "Bengals love water! They will play in water bowls and even shower with their owners."
         }
       ]
     },
@@ -198,17 +143,6 @@
           "personality": ["Sweet", "Loyal", "Friendly", "Intelligent"],
           "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Scottish%20Fold%201.webp?v=1741004266906",
           "funFact": "Scottish Fold cats are easily recognizable by their unique folded ears."
-        },
-        {
-          "name": "Maggie",
-          "age": "1 year",
-          "lifespan": "12-15 years",
-          "size": "Medium",
-          "weight": "7 lbs",
-          "colour": ["Cream", "White"],
-          "personality": ["Calm", "Affectionate", "Gentle"],
-          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Scottish%20Fold%202.webp?v=1741100015673",
-          "funFact": "Scottish Folds are known for their playful nature, often mimicking dog-like behaviors."
         }
       ]
     },
@@ -254,18 +188,8 @@
           "personality": ["Calm", "Independent", "Affectionate", "Gentle"],
           "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/British%20Shorthair%202.jpg?v=1741004286912",
           "funFact": "British Shorthairs are known for their round faces and thick, plush coats."
-        },
-        {
-          "name": "Mia",
-          "age": "2 years",
-          "lifespan": "12-20 years",
-          "size": "Medium",
-          "weight": "10 lbs",
-          "colour": ["Blue", "Cream"],
-          "personality": ["Gentle", "Affectionate", "Independent"],
-          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/British%20Shorthair%20Mia.jpg?v=1741100023670",
-          "funFact": "British Shorthairs are famously calm and are often good companions for children."
         }
+       
       ]
     }
   ]

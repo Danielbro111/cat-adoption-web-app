@@ -8,10 +8,12 @@
 
 <section class="ui center aligned segment" style="margin-top: 2em;">
   <h1><strong>The rest of our furry friends!</strong></h1>
-
+  </section>
+<div class="ui card" style="width: 1000px; height: 350px; margin:auto; text-allign:left; padding:10px;" >
   {{#each BigCats}}
     <h3>{{breed}}</h3>
-        <div class="ui card">
+  <div class="ui card" style="width: 1000px; height: 350px; margin:auto; text-allign:left; padding:10px;" >
+        {{#each cats}}   
          <p><strong> Name:</strong> {{name}}</p>
          <p><strong> Age:</strong> {{age}}  </p>
             <p><strong>Lifespan:</strong> {{lifespan}}</p>
@@ -31,7 +33,8 @@
             <p><strong>Fun Fact:</strong> {{funFact}}</p>
           
         </div>
+         </div>
     
-      
+      {{/each}}
   {{/each}}
 </section>
