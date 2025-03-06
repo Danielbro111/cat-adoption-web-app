@@ -12,7 +12,7 @@
           "weight": "10-18 lbs",
           "colour": ["Brown", "Black", "White", "Grey", "Orange"],
           "personality": ["Gentle", "Playful", "Affectionate", "Intelligent"],
-          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/maine%202.webp?v=1741004282301",
+          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/kamile.jpg?v=1741275209143",
           "funFact": "Maine Coons are known for being one of the largest domesticated cat breeds!"
         },
         {
@@ -23,7 +23,7 @@
           "weight": "12 lbs",
           "colour": ["Black", "White", "Grey"],
           "personality": ["Gentle", "Affectionate", "Playful"],
-          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/maine%20coon%203.jpg?v=1741100021103",
+          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/maine%20coon%202.webp?v=1741275211600",
           "funFact": "Maine Coons are known for their love of water; they often enjoy playing in sinks or bathtubs."
         }
       ]
@@ -33,27 +33,17 @@
       "breed": "Siamese",
       "cats": [
         {
-          "name": "Rodger",
-          "age": "3 years",
+          "name": "Rodger, Tommy and Jack",
+          "age": "10 weeks old",
           "lifespan": "12-20 years",
           "size": "Medium",
-          "weight": "10 lbs",
+          "weight": "4 lbs",
           "colour": ["Cream", "Seal", "Chocolate", "Blue", "Lilac"],
           "personality": ["Vocal", "Social", "Curious", "Energetic"],
-          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/siamese-cat-cover.webp?v=1741005315108",
+          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/three-siamese-kittens-on-the-floor_ADA_photo_Shutterstock.jpg?v=1741275215373",
           "funFact": "Siamese cats are one of the most vocal breeds, often 'talking' to their owners."
-        },
-        {
-          "name": "Tommy",
-          "age": "1 year",
-          "lifespan": "12-20 years",
-          "size": "Medium",
-          "weight": "9 lbs",
-          "colour": ["Cream", "Seal", "Chocolate"],
-          "personality": ["Loyal", "Curious", "Social"],
-          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/siamese3.jpg?v=1741100090294",
-          "funFact": "Siamese cats have a strong attachment to their owners and tend to follow them around."
         }
+        
       ]
     },
     {
@@ -68,7 +58,7 @@
           "weight": "11 lbs",
           "colour": ["Red", "Cream", "White"],
           "personality": ["Independent", "Quiet", "Calm"],
-          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Persian%20Simba.jpg?v=1741100000065",
+          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Persian-cat-rescue-062623-4-bde6b10fb66e4c929dc5b52bcfcbc57c.jpg?v=1741275271285",
           "funFact": "Persians need frequent grooming to keep their coats looking pristine."
         },
         {
@@ -79,7 +69,7 @@
           "weight": "8 lbs",
           "colour": ["Black", "Blue"],
           "personality": ["Calm", "Quiet", "Loyal"],
-          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Persian%20Fluffy.jpg?v=1741100000068",
+          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/persian.jpg?v=1741275274291",
           "funFact": "Persians are known for their round faces and short, flat noses."
         }
       ]
@@ -96,7 +86,7 @@
           "weight": "8-15 lbs",
           "colour": ["Brown Spotted", "Snow", "Silver", "Blue"],
           "personality": ["Energetic", "Playful", "Intelligent", "Confident"],
-          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Bengal%201%20year.jpg?v=1741004272585",
+          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/bengal.webp?v=1741275277899",
           "funFact": "Bengals have a distinctive wild look due to their leopard-like spots and rosettes!"
         }
       ]
@@ -113,7 +103,7 @@
           "weight": "10-20 lbs",
           "colour": ["Seal", "Blue", "Chocolate", "Lilac", "Red"],
           "personality": ["Docile", "Loyal", "Gentle", "Affectionate"],
-          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Ragdoll%203%20year.webp?v=1741004269693",
+          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/ragdoll.jpg?v=1741275282527",
           "funFact": "Ragdolls are known for going limp when picked up, hence the name 'Ragdoll.'"
         },
         {
@@ -124,7 +114,7 @@
           "weight": "15 lbs",
           "colour": ["Seal", "Blue"],
           "personality": ["Affectionate", "Calm", "Gentle"],
-          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Ragdoll%20Milo.jpg?v=1741100012345",
+          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/adoption-kamloops-and-district-branch-cat-tilly-c.jpg?v=1741275409072",
           "funFact": "Ragdolls are known to be incredibly affectionate and often follow their owners around."
         }
       ]
@@ -135,13 +125,13 @@
       "cats": [
         {
           "name": "Ben",
-          "age": "3 months",
+          "age": "2 Weeks",
           "lifespan": "12-15 years",
           "size": "Medium",
           "weight": "6-13 lbs",
           "colour": ["White", "Black", "Blue", "Cream", "Silver"],
           "personality": ["Sweet", "Loyal", "Friendly", "Intelligent"],
-          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Scottish%20Fold%201.webp?v=1741004266906",
+          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Scottish%20Fold.webp?v=1741275286444",
           "funFact": "Scottish Fold cats are easily recognizable by their unique folded ears."
         }
       ]
@@ -158,7 +148,7 @@
           "weight": "6-12 lbs",
           "colour": ["Pink", "Black", "White", "Grey", "Brown"],
           "personality": ["Affectionate", "Playful", "Curious", "Social"],
-          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/sphynx%202.jpg?v=1741004275107",
+          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Sphynx.jpg?v=1741275289263",
           "funFact": "Sphynx cats are famous for being hairless, but they require frequent bathing to keep their skin healthy."
         },
         {
@@ -169,7 +159,7 @@
           "weight": "8 lbs",
           "colour": ["Grey", "Black"],
           "personality": ["Loyal", "Curious", "Playful"],
-          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/sphynx%20nina.jpg?v=1741100015123",
+          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Sphynx3.jpg?v=1741275291592",
           "funFact": "Despite being hairless, Sphynx cats are known for being incredibly affectionate and social."
         }
       ]
@@ -179,14 +169,14 @@
       "breed": "British Shorthair",
       "cats": [
         {
-          "name": "Charlie",
-          "age": "3 years",
+          "name": "Jim, James, Jack, Justin, John",
+          "age": "2 weeks",
           "lifespan": "12-20 years",
-          "size": "Medium",
-          "weight": "9-16 lbs",
+          "size": "Small",
+          "weight": "3 lbs",
           "colour": ["Blue", "Lilac", "Black", "White"],
           "personality": ["Calm", "Independent", "Affectionate", "Gentle"],
-          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/British%20Shorthair%202.jpg?v=1741004286912",
+          "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/British%20Shorthair%20kids.jpg?v=1741275294708",
           "funFact": "British Shorthairs are known for their round faces and thick, plush coats."
         }
        
