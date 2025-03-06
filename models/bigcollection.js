@@ -13,9 +13,7 @@ const cats = {
     return this.store.findAll(this.collection);
   },
 
-  getCat(id) {
-    return this.store.findOneBy(this.collection, (catBreeds => catBreeds.id === id));
-},
+  
 
 };
 

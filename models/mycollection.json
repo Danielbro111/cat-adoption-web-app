@@ -25,7 +25,35 @@
           "age": "2 years",
           "colour": ["Black"],
           "weight": "12 lbs"
-        }
+        },
+        {
+  "id": "03",
+  "name": "Max",
+  "age": "4 years",
+  "colour": ["White"],
+  "weight": "16 lbs"
+},
+{
+  "id": "04",
+  "name": "Luna",
+  "age": "1 year",
+  "colour": ["Gray", "White"],
+  "weight": "10 lbs"
+},
+{
+  "id": "05",
+  "name": "Charlie",
+  "age": "5 years",
+  "colour": ["Golden"],
+  "weight": "18 lbs"
+},
+{
+  "id": "06",
+  "name": "Milo",
+  "age": "3 years",
+  "colour": ["Orange"],
+  "weight": "15 lbs"
+}
       ]
     },
     {
@@ -41,14 +69,14 @@
       "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/siamese-cat-cover.webp?v=1741005315108",
       "cats": [
         {
-          "id": "03",
+          "id": "07",
           "name": "Milo",
           "age": "2 years",
           "colour": ["Seal"],
           "weight": "10 lbs"
         },
         {
-          "id": "04",
+          "id": "08",
           "name": "Luna",
           "age": "4 years",
           "colour": ["Chocolate"],
@@ -69,14 +97,14 @@
       "image": "https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/Persian%204%20year.jpg?v=1741004275678",
       "cats": [
         {
-          "id": "05",
+          "id": "09",
           "name": "Oscar",
           "age": "5 years",
           "colour": ["White"],
           "weight": "11 lbs"
         },
         {
-          "id": "06",
+          "id": "0",
           "name": "Sophie",
           "age": "2 years",
           "colour": ["Blue"],
