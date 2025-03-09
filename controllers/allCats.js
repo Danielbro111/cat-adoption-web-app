@@ -4,9 +4,12 @@ import logger from "../utils/logger.js";
 import catDetails from '../models/bigcollection.js';
 
 const catdetails  = {
+  //creates and renders page 
   createView(request, response) {
+    //logs when the page is loading
     logger.info("Cat page loading!");
     
+    //Data is passed to the view 
     const viewData = {
       title: "Our Feline Friends  ",
       BigCats: catDetails.getAllCats() 

@@ -1,21 +1,22 @@
  <!-- I used awesome font to add icons to my menu links -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
- <!-- Menu bar -->
+ <!-- Menu bar below with webpage links -->
 <nav class="ui stackable menu">
   <header class="ui header item">
     <a href="/"><i class="fas fa-home"></i> HomePage </a>
   </header>
-
+  
+  <!-- Dashboard page link with icon  -->
   <div class="right menu">
     <a id="dashboard" class="item" href="/dashboard">
       <i class="fas fa-columns"></i> Dashboard
     </a>
-    
+      <!-- About page link with icon  -->
     <a id="about" class="item" href="/about">
       <i class="fas fa-info-circle"></i> About
     </a>
-    
+      <!-- All of the cats page with cat icon  -->
     <a id="catDetails" class="item" href="/catdetails">
       <i class="fas fa-cat"></i> Our Feline Friends
     </a>
@@ -23,6 +24,7 @@
   </div>
 </nav>
 
+   <!-- Adds id to the "active" class to display my json per id-->
 <script>
   document.querySelector("#{{id}}").classList.add("active");
 </script>
