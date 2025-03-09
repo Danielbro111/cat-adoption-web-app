@@ -8,9 +8,14 @@ html {
 }
 
 body {
-  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  font-family: 'Georgia', serif;
   margin: 2em;
   background-color: lightblue;
+}
+
+h1, h2, h3 {
+  font-family: 'Georgia', sans-serif; 
+  letter-spacing: 1px; 
 }
 
 .card {
@@ -24,6 +29,17 @@ body {
 .card:hover {
   transform: scale(1.05);
   }
+
+.ui.primary.button {
+  background-color: #ff7f50; 
+  color: white;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.ui.primary.button:hover {
+  background-color: #ff4500; 
+}
 
 
 
