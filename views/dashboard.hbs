@@ -4,13 +4,13 @@
   
  <h1>Cat Adoption Dashboard</h1>
 
-  {{#unless catBreeds}}
+  {{#unless catBreeds}} <!-- If no cat breeds exist it displays the following message -->
     <h3 class="ui message">
       No cats are home! Please check back later.
     </h3>
   {{/unless}}
 
-  {{#each catBreeds}}
+  {{#each catBreeds}}     <!-- Loops through each cat breed and display its information -->
     <section class="ui left aligned middle aligned segment" style="margin-top: 2em;">
         <h3 class="ui header">{{breed}}</h3>
 

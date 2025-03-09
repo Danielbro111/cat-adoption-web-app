@@ -15,8 +15,10 @@ const catdetails  = {
       BigCats: catDetails.getAllCats() 
       
     };
+     //logs the data for debugging reasons 
     logger.debug(viewData.BigCats);
     
+    //renders the view with the data 
     response.render("catdetails", viewData);
   },
 };

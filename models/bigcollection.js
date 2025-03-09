@@ -9,7 +9,10 @@ const cats = {
   collection: 'BigCats',
   array: 'cats',
 
+    // Retrieves all cats from the BigCats collection
+   
   getAllCats() {
+     // Fetches all the cats from the BigCats collection
     return this.store.findAll(this.collection);
   },
 

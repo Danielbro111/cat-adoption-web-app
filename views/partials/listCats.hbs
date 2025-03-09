@@ -1,8 +1,10 @@
 {{#if  singleCat.cats}}
 
+<!-- Displays a table if cats are available -->
 <table class="ui fixed striped table">
   <thead>
     <tr>
+      <!-- Table headers for the cat details -->
       <th>Name</th>
       <th>Age</th>
       <th>Color</th>
@@ -11,6 +13,7 @@
   </thead>
   
   <tbody>
+    <!-- Display each cat's details in a table row -->
     {{#each singleCat.cats}}
       <tr>
         <td>{{name}}</td>

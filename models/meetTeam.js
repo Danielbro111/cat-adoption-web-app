@@ -11,8 +11,9 @@ const meetTheTeam = {
   store: new Functions('./models/meetTeam.json', {team: [] }), 
   collection: 'team',
   
-
+// Function to get team information from the 'team' collection
   getTeamInfo() {
+    // Fetches data from the 'team' collection
     return this.store.findAll(this.collection);
   },
 
