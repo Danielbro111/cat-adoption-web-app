@@ -20,6 +20,7 @@ router.get ('/dashboard', dashboard.createView);
 router.get ('/about', about.createView );
 router.get ('/catdetails', catdetails.createView);
 router.get('/search', search.createView);
+
 router.post('/searchcatBreed', search.findResult);
 
 
