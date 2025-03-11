@@ -1,4 +1,4 @@
-{{#if  singleCat.cats}}
+{{#if  cats}}
 
 <!-- Displays a table if cats are available -->
 <table class="ui fixed striped table">
@@ -14,7 +14,7 @@
   
   <tbody>
     <!-- Display each cat's details in a table row -->
-    {{#each singleCat.cats}}
+    {{#each cats}}
       <tr>
         <td>{{name}}</td>
         <td>{{age}}</td>
