@@ -18,6 +18,13 @@ const cats = {
     // Finds a specific cat where the 'id' matches the provided id
     return this.store.findOneBy(this.collection, (catBreeds => catBreeds.id === id));
 },
+  
+  
+  getcatBreed(breed) {
+   return this.store.findBy(this.collection,
+      (catBreeds => catBreeds.breed.toLowerCase() === breed.toLowerCase())
+   );
+},
 
 };
 

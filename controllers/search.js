@@ -29,20 +29,21 @@ const search = {
   },
   
 findResult(request, response) {
-    const catBreed = request.body.catBreed;
-    logger.debug('Cat Breed = ' + catBreed);
+    const breed = request.body.breed;
+    logger.debug('Cat Breed = ' + breed);
 
     const viewData = {
       title: 'CatBreeds',
-      foundCatBreeds: cats.getCatBreed(catBreed),
+      foundCatBreeds: cats.getcatBreed(breed),
       categories: getcatBreeds(),
-      catBreedTitle: catBreed
+      catBreedTitle: breed
     };
     
     logger.debug(viewData.foundCatBreeds);
     
     response.render('search', viewData);
 },
+
 
   
 };
