@@ -29,13 +29,13 @@ const search = {
   },
   
 findResult(request, response) {
-    const breed = request.body.breed;
+    const breed = request.body.catBreed;
     logger.debug('Cat Breed = ' + breed);
 
     const viewData = {
       title: 'CatBreeds',
       foundCatBreeds: cats.getcatBreed(breed),
-      categories: getcatBreeds(),
+      catBreeds: getcatBreeds(),
       catBreedTitle: breed
     };
     

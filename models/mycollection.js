@@ -22,7 +22,7 @@ const cats = {
   
   getcatBreed(breed) {
    return this.store.findBy(this.collection,
-      (catBreeds => catBreeds.breed.toLowerCase() === breed.toLowerCase())
+      (catBreeds => catBreeds.breed === breed)
    );
 },
 
