@@ -1,11 +1,16 @@
 {{> menu}}
 
+{{#with singleCat}}
+
 <section class="ui center aligned middle aligned segment">
   
   <h2 class="ui header">
-    {{singleCat.breed}} <!-- Displays the breed of the selected cat -->
+    {{breed}} <!-- Displays the breed of the selected cat -->
   </h2>
   
   
   {{> listCats}}
+  
 </section>
+
+{{/with }}
