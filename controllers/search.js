@@ -4,14 +4,14 @@ import logger from "../utils/logger.js";
 import cats from "../models/mycollection.js";
 
 const getcatBreeds = () => {
-  const catBreeds = [];
-  const cats = cats.getAllCats();
-  cats.forEach(element => {
-    if (!catBreeds.includes(element.catBreed)) {
-      catBreeds.push(element.catBreed);
+  const breed = [];
+  const allCats = cats.getAllCats();
+  allCats.forEach(element => {
+    if (!breed.includes(element.breed)) {
+      breed.push(element.breed);
     }
   });
-  return catBreeds;
+  return breed;
 }
 
 const search = {

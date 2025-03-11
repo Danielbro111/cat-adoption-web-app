@@ -1,15 +1,18 @@
 {{> menu id="search"}}
 
 <section class="ui left aligned middle aligned segment">
-  <form class="ui stacked segment form" action = "/searchCategory" method = "POST">
+  <form class="ui stacked segment form" action = "/searchcatBreed" method = "POST">
   <div class="field">
     <label>CatBreed</label>
-    <select name = "category" id = "myDropdown">
+    <select name = "catBreed" id = "myDropdown">
       <option>Please select One</option>
-      {{#each categories}}
+      {{#each catBreeds}}
         <option value = "{{this}}">{{this}}</option>
       {{/each}}
     </select>
   </div>
 </form>
+  
+   {{> results}}
+  
 </section>

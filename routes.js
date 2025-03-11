@@ -11,6 +11,7 @@ import about from './controllers/about.js';
 
 import catdetails from './controllers/allCats.js';
 import catdisplay from './controllers/catdetails.js';
+import search from './controllers/search.js';
 
 
 //get routes for controllers 
@@ -18,6 +19,7 @@ router.get('/', start.createView);
 router.get ('/dashboard', dashboard.createView);
 router.get ('/about', about.createView );
 router.get ('/catdetails', catdetails.createView);
+router.get('/search', search.createView);
 
 
 router.get('/catdisplay/:id', catdisplay.createView);
