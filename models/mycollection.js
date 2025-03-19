@@ -26,8 +26,8 @@ const cats = {
    );
 },
   
-  addCat(id, cat) {
-    this.store.addItem(this.collection, id, this.array,  cat);
+  addCat(id, cats) {
+    this.store.addItem(this.collection, id, this.array,  cats);
 },
 
 
