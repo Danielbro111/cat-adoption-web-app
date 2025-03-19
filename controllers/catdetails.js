@@ -1,8 +1,9 @@
 'use strict';
-import { v4 as uuidv4 } from 'uuid';
+
 
 import logger from '../utils/logger.js';
 import cats from '../models/mycollection.js';
+import { v4 as uuidv4 } from 'uuid';
 
 const catdisplay = {
    //creates and renders page 
@@ -19,7 +20,7 @@ const catdisplay = {
     };
     
 //renders the view with the data 
-    response.render('catdisplay', viewData);
+    response.render('catdisplay', viewData) ;
   },
   
   
