@@ -25,6 +25,11 @@ const cats = {
       (catBreeds => catBreeds.breed === breed)
    );
 },
+  
+  addCat(id, cat) {
+    this.store.addItem(this.collection, id, this.array,  cat);
+},
+
 
 };
 
