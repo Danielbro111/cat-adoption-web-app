@@ -27,8 +27,15 @@ const cats = {
 },
   
  addCat(id, cat) {
-    this.store.addItem(this.collection, id, this.array, cat); 
-},
+    console.log("=== Debugging addCat ===");
+    console.log("Collection:", this.collection);
+    console.log("ID:", id);
+    console.log("Array:", this.array);
+    console.log("Cat:", cat);
+
+    this.store.addItem(this.collection, id, this.array, cat);
+}
+
 
 
 
