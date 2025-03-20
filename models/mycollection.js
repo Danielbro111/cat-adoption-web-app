@@ -26,9 +26,9 @@ const cats = {
    );
 },
   
- addCat(id, newCat) {
+ addCat(id, cats) {
     const arrayName = this.array || "cats";  
-    this.store.addItem(this.collection, id, this.array, newCat); 
+    this.store.addItem(this.collection, id, this.array, cats); 
 },
 
 
