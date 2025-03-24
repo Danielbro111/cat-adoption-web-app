@@ -5,6 +5,7 @@ import logger from '../utils/logger.js';
 import cats from '../models/mycollection.js';
 import { v4 as uuidv4 } from 'uuid';
 
+
 const catdisplay = {
    //creates and renders page 
   createView(request, response) {
