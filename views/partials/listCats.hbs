@@ -1,4 +1,4 @@
-{{#if  cats}}
+{{#if cats}}
 
 <!-- Displays a table if cats are available -->
 <table class="ui fixed striped table">
@@ -9,6 +9,8 @@
       <th>Age</th>
       <th>Color</th>
       <th>Weight</th>
+      <th>Update</th>
+      <th>Remove</th>
     </tr>
   </thead>
   
@@ -16,78 +18,59 @@
     <!-- Display each cat's details in a table row -->
     {{#each cats}}
       <tr>
-        <form 
-          class = "ui stacked segment form" 
-          action="/catdisplay/{{../id}}/updatecat/{{id}}" 
-          method="POST"
-        >
-          <tr class="fields">
-            <td class="field">
-              <span class="ui input">
-               <input type="text" name="name" autofocus required 
-                      title = "Please include a valid Name" placeholder="Name" 
-					  value = "{{name}}">
-              </span>
-            </td>
-            
-            <td class="field">
-              <span class="ui input">
-                <input type="text" name="age" required 
-                       title = "Please include a valid Age" placeholder="Age" 
-					   value = "{{age}}">
-              </span>
-            </td>
-            
-            <td class="field">
-              <span class="ui input">
-                <input type="text" name="colour" required 
-                       title = "Please include a valid Colour" placeholder="Colour" 
-					   value = "{{colour}}">
-              </span>
-            </td>
-            
-            <td class="field">
-              <span class="ui input">
-                <input type="text" name="weight" required 
-                       title = "Please include a valid Weight" placeholder="Weight" 
-					   value = "{{}}">
-              </span>
-            </td>
-            
-            <td class="center aligned">
-              <button type = "submit" class = "editSubmit">
-                <i class="ui pencil icon "></i>
-              </button>
-            </td>
-            <td class="center aligned">
-              <a href="/playlist/{{../id}}/deletesong/{{id}}">
-                <i class="ui black trash icon"></i>
-              </a>
-            </td>
-          </tr>
-        </form> 
-        
-        <td>{{name}}</td>
-        <td>{{age}}</td>
-        <td>{{colour}}</td>
-        <td>{{weight}}</td>
-        
-    <td class="center aligned">
-            <a href="/catbreed/{{../id}}/removeCat/{{id}}" 
-               title="Remove a cat">
+        <form class="ui stacked segment form" action="/catdisplay/{{../id}}/updatecat/{{id}}" method="POST">
+          <td class="field">
+            <span class="ui input">
+              <input type="text" name="name" autofocus required 
+                     title="Please include a valid Name" placeholder="Name" 
+                     value="{{name}}">
+            </span>
+          </td>
+          
+          <td class="field">
+            <span class="ui input">
+              <input type="text" name="age" required 
+                     title="Please include a valid Age" placeholder="Age" 
+                     value="{{age}}">
+            </span>
+          </td>
+          
+          <td class="field">
+            <span class="ui input">
+              <input type="text" name="colour" required 
+                     title="Please include a valid Colour" placeholder="Colour" 
+                     value="{{colour}}">
+            </span>
+          </td>
+          
+          <td class="field">
+            <span class="ui input">
+              <input type="text" name="weight" required 
+                     title="Please include a valid Weight" placeholder="Weight" 
+                     value="{{weight}}">
+            </span>
+          </td>
+          
+          <td class="center aligned">
+            <button type="submit" class="editSubmit">
+              <i class="ui pencil icon"></i>
+            </button>
+          </td>
+          
+          <td class="center aligned">
+            <a href="/catbreed/{{../id}}/removeCat/{{id}}" title="Remove a cat">
               <i class="ui black trash icon"></i>
             </a>
           </td>
-
-</tr>
+        </form>
+      </tr>
     {{/each}}
   </tbody>
 </table>
 
-
-  {{else}}
-    <h3 class="ui message">
-      No cats for adoption!
-    </h3>
+{{else}}
+  <h3 class="ui message">
+    No cats for adoption!
+  </h3>
 
 {{/if}}

@@ -51,6 +51,11 @@ addCatBreed(catBreed) {
     const catBreed = this.getCat(id);
     this.store.removeCollection(this.collection, catBreed);
 },
+  
+  editCat(id, catId, updatedCat) {
+    this.store.editItem(this.collection, id, catId, this.array, updatedCat);
+},
+
 
 };
 

@@ -70,13 +70,10 @@
           "weight": "18 lbs"
         },
         {
-          "id": "06",
-          "name": "Milo",
-          "age": "3 years",
-          "colour": [
-            "Orange"
-          ],
-          "weight": "15 lbs"
+          "name": "Bella",
+          "age": "2 years",
+          "colour": "Black",
+          "weight": "12 lbs"
         }
       ]
     },

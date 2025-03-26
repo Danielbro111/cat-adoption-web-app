@@ -46,7 +46,23 @@ removeCat(request, response) {
     logger.debug(`Removing Cat ${catId} from the Adoption Center ${CatBreedId}`);
     cats.removeCat(CatBreedId, catId);
     response.redirect('/catdisplay/' + CatBreedId);
+},
+  
+  updateCat(request, response) {
+    const CatBreedId = request.params.id;
+    const catId = request.params.catId;
+    logger.debug("updating cat " + catId);
+    const updatedCat = {
+      id: catId,
+      name: request.body.name,
+      age: request.body.age,
+      colour: request.body.colour,
+      weight: request.body.weight,
+    };
+    cats.editCat(CatBreedId, catId, updatedCat);
+    response.redirect('/catdisplay/' + CatBreedId);
 }
+
 
 
 
