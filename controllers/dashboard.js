@@ -40,7 +40,16 @@ const dashboard = {
 
     mycollection.addCatBreed(newCatBreed);
     response.redirect('/dashboard');
-  }
+  },
+  
+  
+  deleteCatBreed(request, response) {
+    const catBreedId = request.params.id;
+    logger.debug(`Removing ${catBreedId} from the shelter`);
+    mycollection.removeCatBreed(catBreedId);
+    response.redirect("/dashboard");
+},
+
 };
 
 export default dashboard;

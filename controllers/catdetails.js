@@ -40,13 +40,14 @@ const catdisplay = {
 },
   
   
-  removeCat(request, response) {
-    const catId = request.params.id;
-    const CatBreedId = request.params.catId;
-    logger.debug(`Removing Cat  $(catId} from the Adoption Center ${CatBreedId}`);
+removeCat(request, response) {
+    const catId = request.params.catId;  
+    const CatBreedId = request.params.id; 
+    logger.debug(`Removing Cat ${catId} from the Adoption Center ${CatBreedId}`);
     cats.removeCat(CatBreedId, catId);
     response.redirect('/catdisplay/' + CatBreedId);
-},
+}
+
 
 
 };

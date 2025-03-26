@@ -47,6 +47,11 @@ addCatBreed(catBreed) {
     this.store.removeItem(this.collection, id, this.array, catId);
 },
 
+  removeCatBreed(id) {
+    const catBreed = this.getcatBreed(id);
+    this.store.removeCollection(this.collection, catBreed);
+},
+
 };
 
 export default cats;
