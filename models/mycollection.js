@@ -42,6 +42,11 @@ addCatBreed(catBreed) {
 },
 
 
+  
+  removeCat(id, catId) {
+    this.store.removeItem(this.collection, id, this.array, catId);
+},
+
 };
 
 export default cats;

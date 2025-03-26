@@ -38,6 +38,16 @@ const catdisplay = {
     cats.addCat(catId, newCat);
     response.redirect('/catdisplay/' + catId);
 },
+  
+  
+  removeCat(request, response) {
+    const catId = request.params.id;
+    const CatBreedId = request.params.catId;
+    logger.debug(`Removing Cat  $(catId} from the Adoption Center ${CatBreedId}`);
+    cats.removeCat(CatBreedId, catId);
+    response.redirect('/catdisplay/' + CatBreedId);
+},
+
 
 };
 
