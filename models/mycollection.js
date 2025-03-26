@@ -34,9 +34,12 @@ const cats = {
     console.log("Cat:", cat);
 
     this.store.addItem(this.collection, id, this.array, cat);
-}
+},
 
 
+addCatBreed(catBreed) {
+    this.store.addCollection(this.collection, catBreed);
+},
 
 
 };

@@ -23,6 +23,7 @@ router.get('/search', search.createView);
 
 router.post('/searchcatBreed', search.findResult);
 router.post('/catdisplay/:id/addcat',catdisplay.addCat);
+router.post('/dashboard/addCatBreed', dashboard.addCatBreed);
 
 
 router.get('/catdisplay/:id', catdisplay.createView);
