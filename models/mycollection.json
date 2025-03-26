@@ -505,34 +505,6 @@
           "weight": "10 lbs"
         }
       ]
-    },
-    {
-      "id": "3f77dfbc-2066-44b6-8f12-d0d274a9527a",
-      "breed": "1",
-      "name": "1",
-      "age": "1",
-      "lifespan": "1",
-      "size": [
-        "1",
-        "1"
-      ],
-      "weight": "1",
-      "personality": "1",
-      "cats": []
-    },
-    {
-      "id": "47359156-2932-4948-92a5-b1583aa9f44d",
-      "breed": "1",
-      "name": "1",
-      "age": "1",
-      "lifespan": "1",
-      "size": [
-        "1",
-        "1"
-      ],
-      "weight": "1",
-      "personality": "1",
-      "cats": []
     }
   ]
 }

@@ -20,9 +20,9 @@ const cats = {
 },
   
   
-  getcatBreed(id) {
+  getcatBreed(breed) {
    return this.store.findBy(this.collection,
-      (catBreeds => catBreeds.id === id)
+      (catBreeds => catBreeds.breed === breed)
    );
 },
   
@@ -48,7 +48,7 @@ addCatBreed(catBreed) {
 },
 
   removeCatBreed(id) {
-    const catBreed = this.getcatBreed(id);
+    const catBreed = this.getCat(id);
     this.store.removeCollection(this.collection, catBreed);
 },
 
