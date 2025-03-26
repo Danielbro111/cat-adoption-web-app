@@ -37,22 +37,28 @@
           {{/each}}
         </div>
 
-        <div class="four wide column">
-           
-           <a href="/catdisplay/{{id}}"> <!-- Link to more cats of this breed for adoption as a table  -->
-              <button class="ui primary button" style="margin-bottom: 10px;">Click here to see more kitties of this breed!</button>
-             <!-- Button to navigate to the breed's individual page -->
-            </a>
-          
-          <a href="/dashboard/deletecatbreed/{{id}}">
-   <i class="ui trash black icon"></i>
-              </a>
+        <div class="four wide column" style="display: flex; flex-direction: column; align-items: center; text-align: center; padding: 20px;">
+   
+  
+   <a href="/catdisplay/{{id}}" style="width: 100%; margin-bottom: 15px;">
+      <button class="ui primary button" style="width: 100%; padding: 15px; font-size: 16px; text-transform: uppercase;">
+         Click here to see more kitties of this breed!
+      </button>
+   </a>
 
-            <div class="image" style="width: 240px; height: 240px; overflow: hidden; border-radius: 10px; margin: 0 auto;">
-              <img src="{{image}}" style="width: 100%; height: 100%; object-fit: cover;">
-              <!-- Displays the breeds inmage below the button -->
-            </div>
-          </div>
+
+   <a href="/dashboard/deletecatbreed/{{id}}" style="margin-bottom: 15px; display: inline-block; cursor: pointer;">
+      <i class="ui trash black icon" style="font-size: 24px; color: #db2828; transition: transform 0.3s ease;">
+         <span class="sr-only">Delete Breed</span>
+      </i>
+   </a>
+
+  
+   <div class="image" style="width: 240px; height: 240px; overflow: hidden; border-radius: 10px; margin: 0 auto; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);">
+      <img src="{{image}}" style="width: 100%; height: 100%; object-fit: cover; transition: transform 0.3s ease;">
+   </div>
+   
+</div>
         </div>
      
     </section>
