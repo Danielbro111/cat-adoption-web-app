@@ -1,0 +1,53 @@
+<form class="ui stacked segment form" method="POST" action="/catdisplay/{{catId}}/updatecat/{{id}}" >
+<tr class="hide" id="edit{{@index}}">
+
+
+
+    
+    
+    <td class="field">
+            <span class="ui input">
+              <input type="text" name="name" autofocus required 
+                     title="Please include a valid Name" placeholder="Name" 
+                     value="{{name}}">
+            </span>
+          </td>
+          
+          <td class="field">
+            <span class="ui input">
+              <input type="text" name="age" required 
+                     title="Please include a valid Age" placeholder="Age" 
+                     value="{{age}}">
+            </span>
+          </td>
+          
+          <td class="field">
+            <span class="ui input">
+              <input type="text" name="colour" required 
+                     title="Please include a valid Colour" placeholder="Colour" 
+                     value="{{colour}}">
+            </span>
+          </td>
+          
+          <td class="field">
+            <span class="ui input">
+              <input type="text" name="weight" required 
+                     title="Please include a valid Weight" placeholder="Weight" 
+                     value="{{weight}}">
+            </span>
+          </td>
+
+    <td class="center aligned">
+      <button type = "reset" class = "editSubmit" id="hideEdit{{@index}}"
+	          title="Exit without saving">
+        <i class="ui undo icon"></i>
+      </button>
+    </td>
+    <td class="center aligned">
+      <button type = "submit" class = "editSubmit" 
+	          title="Save changes">
+        <i class="ui save icon"></i>
+      </button>
+    </td>
+  </tr>
+</form>

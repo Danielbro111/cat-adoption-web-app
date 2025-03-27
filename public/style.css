@@ -50,3 +50,7 @@ h1, h2, h3 {
   border:none;
   background: none;
 }
+
+.hide{
+    display: none;
+}

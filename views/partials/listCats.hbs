@@ -6,10 +6,9 @@
         <th class="four wide"> Name </th>
         <th class="four wide"> Age </th>
         <th class="four wide"> Color </th>
-        <th class="four wide"> Age </th>
         <th class="four wide"> Weight </th>
-        <th class="two wide"> </th>
-        <th class="two wide"> </th>
+        <th class="two wide"> Update</th>
+        <th class="two wide"> Remove </th>
       </tr>
     </thead>
     <tbody>
@@ -18,7 +17,20 @@
       
         {{> listOneCat catId=../id}}
         {{> editcat catId=../id}}
-                
+             
+      
+      
+      <script>
+    document.querySelector("#showEdit{{@index}}").addEventListener ('click', () => {
+        document.querySelector("#cat{{@index}}").style.display = "none";
+        document.querySelector("#edit{{@index}}").style.display = "table-row";
+    })
+    document.querySelector("#hideEdit{{@index}}").addEventListener ('click', () => {
+        document.querySelector("#cat{{@index}}").style.display = "table-row";
+        document.querySelector("#edit{{@index}}").style.display = "none";
+    })
+</script>
+
       {{/each}}
     
     </tbody>
