@@ -28,7 +28,7 @@ router.get('/dashboard/deleteCatBreed/:id', dashboard.deleteCatBreed);
 
 router.post('/catdisplay/:id/updatecat/:catid', catdisplay.updateCat);
 router.post('/catdisplay/:id/addcat', catdisplay.addCat);
-router.get('/catdisplay/:id/removecat/:catId', catdisplay.removeCat);
+router.get('/catbreed/:id/removeCat/:catId', catdisplay.removeCat);
 
 
 router.get('/catdisplay/:id', catdisplay.createView);

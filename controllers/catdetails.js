@@ -36,6 +36,7 @@ const catdisplay = {
       weight: request.body.weight,
     };
     cats.addCat(catId, newCat);
+    logger.debug(`Adding Cat`);
     response.redirect('/catdisplay/' + catId);
 },
   
