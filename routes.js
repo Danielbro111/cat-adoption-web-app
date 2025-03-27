@@ -22,14 +22,12 @@ router.get ('/catdetails', catdetails.createView);
 router.get('/search', search.createView);
 
 router.post('/searchcatBreed', search.findResult);
-
-router.post('/catdisplay/:id/addcat',catdisplay.addCat);
 router.post('/dashboard/addCatBreed', dashboard.addCatBreed);
 router.get('/dashboard/deleteCatBreed/:id', dashboard.deleteCatBreed);
 
+
 router.post('/catdisplay/:id/updatecat/:catid', catdisplay.updateCat);
-
-
+router.post('/catdisplay/:id/addcat', catdisplay.addCat);
 router.get('/catdisplay/:id/removecat/:catId', catdisplay.removeCat);
 
 
