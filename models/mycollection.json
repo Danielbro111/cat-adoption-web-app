@@ -51,29 +51,10 @@
           "weight": "16 lbs"
         },
         {
-          "id": "04",
-          "name": "Luna",
-          "age": "1 year",
-          "colour": [
-            "Gray",
-            "White"
-          ],
-          "weight": "10 lbs"
-        },
-        {
-          "id": "05",
-          "name": "Charlie",
-          "age": "5 years",
-          "colour": [
-            "Golden"
-          ],
-          "weight": "18 lbs"
-        },
-        {
-          "name": "Leo s",
-          "age": "3 years",
-          "colour": "Brown",
-          "weight": "14 lbs"
+          "name": "121",
+          "age": "12",
+          "colour": "12",
+          "weight": "12"
         }
       ]
     },
@@ -502,20 +483,6 @@
           "weight": "10 lbs"
         }
       ]
-    },
-    {
-      "id": "09d9b6bb-0b47-4e2f-bd2a-845f5555c5d8",
-      "breed": "1",
-      "name": "1",
-      "age": "1",
-      "lifespan": "1",
-      "size": [
-        "1",
-        "1"
-      ],
-      "weight": "1",
-      "personality": "1",
-      "cats": []
     }
   ]
 }
