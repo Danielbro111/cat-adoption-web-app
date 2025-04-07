@@ -54,3 +54,12 @@ h1, h2, h3 {
 .hide{
     display: none;
 }
+
+
+.name{
+  padding-top:22.5px;
+  padding-right:5px;
+  line-height:20px;
+  font-weight:bold;
+  text-transform:capitalize;
+}

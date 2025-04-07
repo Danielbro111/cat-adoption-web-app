@@ -50,6 +50,9 @@ addCatBreed(catBreed) {
     this.store.editItem(this.collection, id, catId, this.array, updatedCat);
 },
 
+  getUserCatBreeds(userid) {
+  return this.store.findBy(this.collection, (catBreed => catBreed.userid === userid));
+},
 
 };
 
