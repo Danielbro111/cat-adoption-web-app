@@ -20,10 +20,11 @@ const cats = {
 },
   
   
-  getcatBreed(breed) {
+  getcatBreed(breed, userid) {
    return this.store.findBy(this.collection,
-      (catBreeds => catBreeds.breed === breed)
-   );
+      (catBreeds => catBreeds.breed.toLowerCase() === breed.toLowerCase() && 
+	   catBreeds.userid === userid)
+      );
 },
   
  addCat(id, cat) {
