@@ -8,11 +8,25 @@
       "id": "3ad52697-6d98-4d80-8273-084de55a86c0"
     },
     {
-      "firstName": "marge",
-      "lastName": "simpson",
+      "firstName": "Marge",
+      "lastName": "Simpson",
       "email": "marge@simpson.com",
       "password": "secret",
       "id": "2b6f0989-7b7f-4a38-ad26-aa06b922d751"
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Brophy",
+      "email": "db@gmail.com",
+      "password": "dv",
+      "id": "bd9867ad-15b3-428f-8c71-e60dc4836165"
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Brophy",
+      "email": "db@gmail.com",
+      "password": "db",
+      "id": "eee93aff-e706-45ed-a0e5-e2bcb5ffc858"
     }
   ]
 }
