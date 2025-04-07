@@ -51,10 +51,17 @@
           "weight": "16 lbs"
         },
         {
-          "name": "121",
-          "age": "12",
-          "colour": "12",
-          "weight": "12"
+          "name": "1",
+          "age": "1",
+          "colour": "1",
+          "weight": "1"
+        },
+        {
+          "id": "9a04f8e6-841d-4031-88ff-d407ee323b3f",
+          "name": "1",
+          "age": "1",
+          "colour": "1",
+          "weight": "1"
         }
       ]
     },

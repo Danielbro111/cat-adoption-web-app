@@ -42,8 +42,8 @@ const catdisplay = {
   
   
 removeCat(request, response) {
-    const catId = request.params.catId;  
-    const CatBreedId = request.params.id; 
+  const CatBreedId = request.params.id;
+    const catId = request.params.catid;  
     logger.debug(`Removing Cat ${catId} from the Adoption Center ${CatBreedId}`);
     cats.removeCat(CatBreedId, catId);
     response.redirect('/catdisplay/' + CatBreedId);
@@ -51,7 +51,7 @@ removeCat(request, response) {
   
   updateCat(request, response) {
     const CatBreedId = request.params.id;
-    const catId = request.params.catId;
+    const catId = request.params.catid;
     logger.debug("updating cat " + catId);
     const updatedCat = {
       id: catId,
