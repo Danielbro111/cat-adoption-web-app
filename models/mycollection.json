@@ -27,38 +27,26 @@
           "id": "01",
           "name": "Leo",
           "age": "3 years",
-          "colour": [
-            "Brown"
-          ],
+          "colour": "Brown",
           "weight": "14 lbs"
         },
         {
           "id": "02",
           "name": "Bella",
           "age": "2 years",
-          "colour": [
-            "Black"
-          ],
+          "colour": "Black",
           "weight": "12 lbs"
         },
         {
           "id": "03",
           "name": "Max",
           "age": "4 years",
-          "colour": [
-            "White"
-          ],
+          "colour": "White",
           "weight": "16 lbs"
         },
         {
-          "name": "1",
-          "age": "1",
-          "colour": "1",
-          "weight": "1"
-        },
-        {
-          "id": "9a04f8e6-841d-4031-88ff-d407ee323b3f",
-          "name": "1",
+          "id": "e1795587-82e6-4cbb-be23-1ec1720ed582",
+          "name": "121",
           "age": "1",
           "colour": "1",
           "weight": "1"

@@ -42,6 +42,7 @@ const catdisplay = {
   
   
 removeCat(request, response) {
+  logger.debug("Received request to remove a cat. Request params: ", request.params);
   const CatBreedId = request.params.id;
     const catId = request.params.catid;  
     logger.debug(`Removing Cat ${catId} from the Adoption Center ${CatBreedId}`);
