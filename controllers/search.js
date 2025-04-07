@@ -2,8 +2,9 @@
 
 import logger from "../utils/logger.js";
 import cats from "../models/mycollection.js";
+import accounts from './accounts.js';
 
-const getcatBreeds = () => {
+const getcatBreeds = (loggedInUser) => {
   const breed = [];
   const allCats = cats.getAllCats();
   allCats.forEach(element => {

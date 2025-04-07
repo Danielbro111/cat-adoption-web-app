@@ -2,25 +2,33 @@
 
 import logger from "../utils/logger.js";
 import meetTeam from '../models/meetTeam.js';
+import accounts from './accounts.js';
 
 const about = {
-   //creates and renders page 
+   // Creates and renders the About page
   createView(request, response) {
-     //logs when the page is loading
+    const loggedInUser = accounts.getCurrentUser(request);
+    
+    // Log that the page is loading
     logger.info("About page loading!");
-    
-    
-    //Data is passed to the view 
+
+    // If the user is not logged in, redirect to the homepage
+    if (!loggedInUser) {
+      return response.redirect('/');
+    }
+
+    // Data passed to the view for rendering
     const viewData = {
-      title: "Cat Adoption Center ",
-      team: meetTeam.getTeamInfo()
-      
+      title: "Cat Adoption Center",
+      team: meetTeam.getTeamInfo(),
+      fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
     };
-    //logs the data for debugging reasons 
-    logger.debug(viewData.team);
     
-    //renders the view with the data 
-    response.render("about", viewData);
+    // Log team data for debugging (be cautious with logging too much user data)
+    logger.debug('Team info:', viewData.team);
+
+    // Render the view with the data
+    response.render('about', viewData);
   },
 };
 

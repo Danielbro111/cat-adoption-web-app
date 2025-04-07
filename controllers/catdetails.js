@@ -4,20 +4,23 @@
 import logger from '../utils/logger.js';
 import cats from '../models/mycollection.js';
 import { v4 as uuidv4 } from 'uuid';
+import accounts from './accounts.js';
+
 
 
 const catdisplay = {
    //creates and renders page 
   createView(request, response) {
     const catId = request.params.id;
-    
+    const loggedInUser = accounts.getCurrentUser(request);
      //logs when the page is loading
     logger.debug('Cat Id = ' + catId);
     
     //Data is passed to the view 
     const viewData = {
       title: 'Catbreeds',
-      singleCat: cats.getCat(catId)
+      singleCat: cats.getCat(catId),
+      fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
     };
     
 //renders the view with the data 
