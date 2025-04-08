@@ -1,49 +1,5 @@
 {
   "catBreeds": [
-    {
-      "id": "3007efa8-5936-476e-9287-2df3dd2774fb",
-      "breed": "1",
-      "name": "1",
-      "age": "1",
-      "lifespan": "1",
-      "size": [
-        "1",
-        "1"
-      ],
-      "weight": "1",
-      "personality": "1",
-      "cats": [],
-      "date": "2025-04-07T12:42:13.864Z"
-    },
-    {
-      "id": "94c1fe47-459e-41e6-968e-56bcc6565fa9",
-      "breed": "1",
-      "name": "1",
-      "age": "1",
-      "lifespan": "1",
-      "size": [
-        "1",
-        "1"
-      ],
-      "weight": "1",
-      "personality": "1",
-      "cats": [],
-      "date": "2025-04-07T12:43:09.994Z"
-    },
-    {
-      "id": "5cf26936-05e1-4019-ba22-1094ab4d1b9d",
-      "breed": "Maine coon ",
-      "name": "Bella",
-      "age": "13",
-      "lifespan": "10 Years",
-      "size": [
-        "Small ",
-        "brown "
-      ],
-      "weight": "10 lbs",
-      "personality": "playful ",
-      "cats": [],
-      "date": "2025-04-08T11:47:48.934Z"
-    }
+
   ]
 }

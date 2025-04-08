@@ -33,46 +33,9 @@
         "mimetype": "image/jpeg",
         "md5": "e3ac0cb5b41e2e7acbc031d9c5adcab4"
       }
-    },
-    {
-      "firstName": "Joe",
-      "lastName": "Bloggs",
-      "email": "joe@gmail.com",
-      "password": "secret",
-      "id": "5e56b816-7475-4a03-8554-854ea68c3292",
-      "picture": {
-        "name": "download.jpg",
-        "data": {
-          "type": "Buffer",
-          "data": []
-        },
-        "size": 7395,
-        "encoding": "7bit",
-        "tempFilePath": "/app/tmp/tmp-1-1744113003463",
-        "truncated": false,
-        "mimetype": "image/jpeg",
-        "md5": "e3ac0cb5b41e2e7acbc031d9c5adcab4"
-      }
-    },
-    {
-      "firstName": "Joe",
-      "lastName": "Bloggs",
-      "email": "joe@gmail.com",
-      "password": "secret",
-      "id": "34f08bff-9bf0-43be-8752-965a3576414e",
-      "picture": {
-        "name": "download.jpg",
-        "data": {
-          "type": "Buffer",
-          "data": []
-        },
-        "size": 7395,
-        "encoding": "7bit",
-        "tempFilePath": "/app/tmp/tmp-2-1744113030960",
-        "truncated": false,
-        "mimetype": "image/jpeg",
-        "md5": "e3ac0cb5b41e2e7acbc031d9c5adcab4"
-      }
+   
+   
+    
     }
   ]
 }

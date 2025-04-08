@@ -32,10 +32,21 @@ const cats = {
 },
 
 
-addCatBreed(catBreed) {
-    this.store.addCollection(this.collection, catBreed);
-},
+  async  addCatBreed(catBreed, response) {
+    try {
+      // call uploader function; takes in the playlist object, returns an image url
+      catBreed.picture = await this.store.uploader(catBreed);
 
+      // add catBreed to JSON file, then return to dashboard controller
+      this.store.addCollection(this.collection, catBreed);
+      response();
+    } 
+    // error handling
+    catch (error) {
+      logger.error("Error processing catBreed:", error);
+      response(error);
+    }
+  },
 
   
   removeCat(id, catId) {

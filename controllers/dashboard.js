@@ -18,7 +18,7 @@ const loggedInUser = accounts.getCurrentUser(request);
       title: "Cat Adoption Center Dashboard",
       catBreeds: mycollection.getUserCatBreeds(loggedInUser.id),
       fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
-      picture: loggedInUser.picture,
+      picture: loggedInUser.picture
     };
     
     // Data is passed to the view
@@ -51,13 +51,16 @@ const loggedInUser = accounts.getCurrentUser(request);
       colour: request.body.colour,
       personality: request.body.personality,
       cats: [],
-      date: timestamp
+      date: timestamp,
+      picture: request.files.picture
     };
 
-    mycollection.addCatBreed(newCatBreed);
-    response.redirect('/dashboard');
-  },
+    mycollection.addCatBreed(newCatBreed, function() {
+    response.redirect("/dashboard");
+});
   
+    },
+
   
   deleteCatBreed(request, response) {
     const catBreedId = request.params.id;
