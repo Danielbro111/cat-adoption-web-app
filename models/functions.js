@@ -3,7 +3,23 @@
 import { Low } from "lowdb";
 import { JSONFile } from "lowdb/node";
 
-class functions {
+import logger from '../utils/logger.js';
+import cloudinary from 'cloudinary';
+
+import { createRequire } from "module";
+const require = createRequire(import.meta.url);
+const fs = require('fs').promises; 
+
+try {
+  const env = require("../.data/.env.json");
+  cloudinary.config(env.cloudinary);
+}
+catch(e) {
+  logger.info('You must provide a Cloudinary credentials file - see README.md');
+  process.exit(1);
+}
+
+class JsonStore {
   constructor(file, defaults) {
     this.db = new Low(new JSONFile(file), defaults);
     this.db.read();
@@ -66,7 +82,30 @@ class functions {
     data[0][arr].splice(index, 1, obj);
     await this.db.write();
   }
+
+  async uploader(object) {
+    async function addToCloudinary(obj) {
+      return new Promise((resolve, reject) => {
+        cloudinary.uploader.upload(obj.picture.tempFilePath, (result, err) => {
+          if (err) {
+            console.error("Upload error:", err);
+            reject(err);
+          } else {
+            resolve(result);
+          }
+        });
+      });
+    }
+  
+    let result = await addToCloudinary(object);
+    logger.info('Cloudinary result:', result);
+
+    // Remove temp file
+    await fs.unlink(`./tmp/${result.original_filename}`);
+    logger.info('Temporary file deleted: ' + result.original_filename);
+
+    return result.url;
+  } 
 }
 
-export default functions;
-
+export default JsonStore;

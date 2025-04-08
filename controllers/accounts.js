@@ -41,13 +41,19 @@ const accounts = {
   register(request, response) {
     const user = request.body;
     user.id = uuidv4();
-    userStore.addUser(user);
-    logger.info('registering' + user.email);
-    response.redirect('/start');
+    user.picture = request.files.picture,
+          logger.info('catdisplay' + user.email);
+    
+    userStore.addUser(user, function() {
+        response.cookie('catdisplay', user.email);
+      logger.info('logging in' + user.email);
+      response.redirect('/start');
+    });
+
   },
   
   //authenticate function to check user credentials and either render the login page again or the start page.
-  authenticate(request, response) {
+authenticate(request, response) {
     const user = userStore.getUserByEmail(request.body.email);
     const password = request.body.password;
     if (user  && user.password === password) {

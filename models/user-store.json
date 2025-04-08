@@ -27,6 +27,13 @@
       "email": "db@gmail.com",
       "password": "db",
       "id": "eee93aff-e706-45ed-a0e5-e2bcb5ffc858"
+    },
+    {
+      "firstName": "Daniel ",
+      "lastName": "Brophy",
+      "email": "db@gmail.com",
+      "password": "dd",
+      "id": "5ca42de1-0ed7-4791-b63d-2a5a04506c99"
     }
   ]
 }
