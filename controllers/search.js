@@ -23,7 +23,8 @@ const search = {
     const viewData = {
       title: "CatBreed Search",
       catBreeds: getcatBreeds(loggedInUser),
-      fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName
+      fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
+      picture: loggedInUser.picture,
     };
     
     logger.debug(viewData.catBreeds);

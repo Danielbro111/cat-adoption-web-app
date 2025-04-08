@@ -16,24 +16,63 @@
     },
     {
       "firstName": "Daniel",
-      "lastName": "Brophy",
-      "email": "db@gmail.com",
-      "password": "dv",
-      "id": "bd9867ad-15b3-428f-8c71-e60dc4836165"
+      "lastName": "d",
+      "email": "db1@gmail.com",
+      "password": "db1",
+      "id": "5561145e-4ca3-472e-afb1-64542980b3d1",
+      "picture": {
+        "name": "download.jpg",
+        "data": {
+          "type": "Buffer",
+          "data": []
+        },
+        "size": 7395,
+        "encoding": "7bit",
+        "tempFilePath": "/app/tmp/tmp-1-1744112577858",
+        "truncated": false,
+        "mimetype": "image/jpeg",
+        "md5": "e3ac0cb5b41e2e7acbc031d9c5adcab4"
+      }
     },
     {
-      "firstName": "Daniel",
-      "lastName": "Brophy",
-      "email": "db@gmail.com",
-      "password": "db",
-      "id": "eee93aff-e706-45ed-a0e5-e2bcb5ffc858"
+      "firstName": "Joe",
+      "lastName": "Bloggs",
+      "email": "joe@gmail.com",
+      "password": "secret",
+      "id": "5e56b816-7475-4a03-8554-854ea68c3292",
+      "picture": {
+        "name": "download.jpg",
+        "data": {
+          "type": "Buffer",
+          "data": []
+        },
+        "size": 7395,
+        "encoding": "7bit",
+        "tempFilePath": "/app/tmp/tmp-1-1744113003463",
+        "truncated": false,
+        "mimetype": "image/jpeg",
+        "md5": "e3ac0cb5b41e2e7acbc031d9c5adcab4"
+      }
     },
     {
-      "firstName": "Daniel ",
-      "lastName": "Brophy",
-      "email": "db@gmail.com",
-      "password": "dd",
-      "id": "5ca42de1-0ed7-4791-b63d-2a5a04506c99"
+      "firstName": "Joe",
+      "lastName": "Bloggs",
+      "email": "joe@gmail.com",
+      "password": "secret",
+      "id": "34f08bff-9bf0-43be-8752-965a3576414e",
+      "picture": {
+        "name": "download.jpg",
+        "data": {
+          "type": "Buffer",
+          "data": []
+        },
+        "size": 7395,
+        "encoding": "7bit",
+        "tempFilePath": "/app/tmp/tmp-2-1744113030960",
+        "truncated": false,
+        "mimetype": "image/jpeg",
+        "md5": "e3ac0cb5b41e2e7acbc031d9c5adcab4"
+      }
     }
   ]
 }

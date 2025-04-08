@@ -21,6 +21,7 @@ const catdisplay = {
       title: 'Catbreeds',
       singleCat: cats.getCat(catId),
       fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
+      picture: loggedInUser.picture,
     };
     
 //renders the view with the data 
@@ -37,6 +38,7 @@ const catdisplay = {
       age: request.body.age,
       colour: request.body.colour,
       weight: request.body.weight,
+      
     };
     cats.addCat(catId, newCat);
     logger.debug(`Adding Cat`);

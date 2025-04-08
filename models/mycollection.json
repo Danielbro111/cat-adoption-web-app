@@ -29,6 +29,21 @@
       "personality": "1",
       "cats": [],
       "date": "2025-04-07T12:43:09.994Z"
+    },
+    {
+      "id": "5cf26936-05e1-4019-ba22-1094ab4d1b9d",
+      "breed": "Maine coon ",
+      "name": "Bella",
+      "age": "13",
+      "lifespan": "10 Years",
+      "size": [
+        "Small ",
+        "brown "
+      ],
+      "weight": "10 lbs",
+      "personality": "playful ",
+      "cats": [],
+      "date": "2025-04-08T11:47:48.934Z"
     }
   ]
 }

@@ -18,6 +18,7 @@ const loggedInUser = accounts.getCurrentUser(request);
       title: "Cat Adoption Center Dashboard",
       catBreeds: mycollection.getUserCatBreeds(loggedInUser.id),
       fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
+      picture: loggedInUser.picture,
     };
     
     // Data is passed to the view

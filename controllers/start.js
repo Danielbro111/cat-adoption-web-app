@@ -20,6 +20,7 @@ const start = {
       title: "CA1 Starter App",
       info: catAdoption.getCatInfo(),
        fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
+      picture: loggedInUser.picture,
     };
      //Data is passed to the view 
     logger.info(viewData.info)

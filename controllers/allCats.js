@@ -2,6 +2,8 @@
 
 import logger from "../utils/logger.js";
 import catDetails from '../models/bigcollection.js';
+import accounts from './accounts.js';
+
 
 const catdetails  = {
   //creates and renders page 
@@ -12,7 +14,8 @@ const catdetails  = {
     //Data is passed to the view 
     const viewData = {
       title: "Our Feline Friends  ",
-      BigCats: catDetails.getAllCats() 
+      BigCats: catDetails.getAllCats(),
+      
       
     };
      //logs the data for debugging reasons 
