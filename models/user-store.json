@@ -33,9 +33,26 @@
         "mimetype": "image/jpeg",
         "md5": "e3ac0cb5b41e2e7acbc031d9c5adcab4"
       }
-   
-   
-    
+    },
+    {
+      "firstName": "Mary",
+      "lastName": "Lyng",
+      "email": "ML@gmail.com",
+      "password": "ML",
+      "id": "4937241f-a8f5-431b-9569-3c24051a14c1",
+      "picture": {
+        "name": "download.jpg",
+        "data": {
+          "type": "Buffer",
+          "data": []
+        },
+        "size": 7395,
+        "encoding": "7bit",
+        "tempFilePath": "/app/tmp/tmp-1-1744113917855",
+        "truncated": false,
+        "mimetype": "image/jpeg",
+        "md5": "e3ac0cb5b41e2e7acbc031d9c5adcab4"
+      }
     }
   ]
 }
