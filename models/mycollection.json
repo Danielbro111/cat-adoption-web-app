@@ -45,7 +45,15 @@
       ],
       "weight": "1",
       "personality": "1",
-      "cats": [],
+      "cats": [
+        {
+          "id": "d4a70c09-4f60-4d20-958c-6b56fd86e913",
+          "name": "JOHN",
+          "age": "1",
+          "colour": "1",
+          "weight": "11"
+        }
+      ],
       "date": "2025-04-10T08:52:38.264Z",
       "picture": "http://res.cloudinary.com/dgoexcotl/image/upload/v1744275158/kltxoxdirstzbtvp8ocj.jpg"
     }
