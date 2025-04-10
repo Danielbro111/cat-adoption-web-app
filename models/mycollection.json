@@ -31,6 +31,23 @@
       "cats": [],
       "date": "2025-04-10T08:48:49.292Z",
       "picture": "http://res.cloudinary.com/dgoexcotl/image/upload/v1744274929/gb9teevss9pwbrpgfci5.jpg"
+    },
+    {
+      "id": "6b0eaaee-4d6b-4b54-be5a-7d9f82e136f3",
+      "userid": "cfa06f76-8c4d-4bac-a4e8-5729887a1d54",
+      "breed": "Maine Coon",
+      "name": "Sara",
+      "age": "12",
+      "lifespan": "10 YEARS",
+      "size": [
+        "BIG",
+        "1"
+      ],
+      "weight": "1",
+      "personality": "1",
+      "cats": [],
+      "date": "2025-04-10T08:52:38.264Z",
+      "picture": "http://res.cloudinary.com/dgoexcotl/image/upload/v1744275158/kltxoxdirstzbtvp8ocj.jpg"
     }
   ]
 }

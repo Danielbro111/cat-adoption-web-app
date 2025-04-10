@@ -36,12 +36,12 @@ const loggedInUser = accounts.getCurrentUser(request);
   // Adds a new cat breed
   addCatBreed(request, response) {
     const loggedInUser = accounts.getCurrentUser(request);
-    logger.debug(loggedInUser.id);
     const timestamp = new Date();
     
     
     const newCatBreed = {
       id: uuidv4(),
+      userid: loggedInUser.id,
       breed: request.body.breed,
       name: request.body.name,
       age: request.body.age,
