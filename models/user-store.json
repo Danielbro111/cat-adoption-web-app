@@ -53,6 +53,54 @@
         "mimetype": "image/jpeg",
         "md5": "e3ac0cb5b41e2e7acbc031d9c5adcab4"
       }
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Brophy",
+      "email": "DB@gmail.com",
+      "password": "DB",
+      "id": "cfa06f76-8c4d-4bac-a4e8-5729887a1d54",
+      "picture": {
+        "name": "istockphoto-1682296067-612x612.jpg",
+        "data": {
+          "type": "Buffer",
+          "data": []
+        },
+        "size": 30999,
+        "encoding": "7bit",
+        "tempFilePath": "/app/tmp/tmp-1-1744273636058",
+        "truncated": false,
+        "mimetype": "image/jpeg",
+        "md5": "9fb5c1e43b48751ca882deeb0b7ed712"
+      }
+    },
+    {
+      "firstName": "DANIEL",
+      "lastName": "BROPHY",
+      "email": "DB1@gmail.com",
+      "password": "DB",
+      "id": "b274fd8c-0573-42d9-9b29-4fe3436e2fa5",
+      "picture": {
+        "name": "istockphoto-1682296067-612x612.jpg",
+        "data": {
+          "type": "Buffer",
+          "data": []
+        },
+        "size": 30999,
+        "encoding": "7bit",
+        "tempFilePath": "/app/tmp/tmp-2-1744273768708",
+        "truncated": false,
+        "mimetype": "image/jpeg",
+        "md5": "9fb5c1e43b48751ca882deeb0b7ed712"
+      }
+    },
+    {
+      "firstName": "Jeff",
+      "lastName": "B",
+      "email": "JB@gmail.com",
+      "password": "JB",
+      "id": "e1800df1-bf67-48fb-9e0e-13910c7b3a0e",
+      "picture": "http://res.cloudinary.com/dgoexcotl/image/upload/v1744274052/yivmrrmkvif71eoiazry.jpg"
     }
   ]
 }

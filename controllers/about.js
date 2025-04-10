@@ -22,7 +22,7 @@ const about = {
       title: "Cat Adoption Center",
       team: meetTeam.getTeamInfo(),
       fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
-        picture: loggedInUser.picture
+      picture: loggedInUser.picture
     };
     
     // Log team data for debugging (be cautious with logging too much user data)

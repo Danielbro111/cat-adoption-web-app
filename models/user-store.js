@@ -22,9 +22,23 @@ const userStore = {
     return this.store.findOneBy(this.collection, (user => user.email === email));
   },
   
-  addUser(user) {
-    this.store.addCollection(this.collection, user);
+  
+  async addUser(user, response) {
+    try {
+      // call uploader function; takes in the playlist object, returns an image url
+      user.picture = await this.store.uploader(user);
+
+      // add playlist to JSON file, then return to dashboard controller
+      this.store.addCollection(this.collection, user);
+      response();
+    } 
+    // error handling
+    catch (error) {
+      logger.error("Error processing user:", error);
+      response(error);
+    }
   },
+  
 
 };
 
