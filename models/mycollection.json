@@ -1,5 +1,36 @@
 {
   "catBreeds": [
-
+    {
+      "id": "0dff7b44-ef99-4931-8939-e1199344e3ac",
+      "breed": "Maine",
+      "name": "Sara",
+      "age": "12",
+      "lifespan": "10 years",
+      "size": [
+        "big",
+        "big"
+      ],
+      "weight": "10lbs",
+      "personality": "playful",
+      "cats": [],
+      "date": "2025-04-10T08:45:17.763Z",
+      "picture": "http://res.cloudinary.com/dgoexcotl/image/upload/v1744274718/qhd1dqrbl1l1w5zmz03u.jpg"
+    },
+    {
+      "id": "564ff6a6-2c75-4141-83f9-10f304aa3bd9",
+      "breed": "1",
+      "name": "1",
+      "age": "1",
+      "lifespan": "1",
+      "size": [
+        "1",
+        "1"
+      ],
+      "weight": "1",
+      "personality": "1",
+      "cats": [],
+      "date": "2025-04-10T08:48:49.292Z",
+      "picture": "http://res.cloudinary.com/dgoexcotl/image/upload/v1744274929/gb9teevss9pwbrpgfci5.jpg"
+    }
   ]
 }

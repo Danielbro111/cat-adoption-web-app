@@ -52,7 +52,7 @@ const loggedInUser = accounts.getCurrentUser(request);
       personality: request.body.personality,
       cats: [],
       date: timestamp,
-      picture: request.files.picture
+      picture: request.files.picture,
     };
 
     mycollection.addCatBreed(newCatBreed, function() {
