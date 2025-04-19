@@ -21,6 +21,14 @@
       "password": "JB",
       "id": "e1800df1-bf67-48fb-9e0e-13910c7b3a0e",
       "picture": "http://res.cloudinary.com/dgoexcotl/image/upload/v1744274052/yivmrrmkvif71eoiazry.jpg"
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Brophy",
+      "email": "DB@gmail.com",
+      "password": "DB",
+      "id": "ada35aac-fe98-4daa-b3dc-28657bfa0749",
+      "picture": "http://res.cloudinary.com/dgoexcotl/image/upload/v1745082913/ftwb3lkxrys6kmbdfp0k.webp"
     }
   ]
 }
