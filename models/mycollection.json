@@ -56,6 +56,23 @@
       ],
       "date": "2025-04-10T08:52:38.264Z",
       "picture": "http://res.cloudinary.com/dgoexcotl/image/upload/v1744275158/kltxoxdirstzbtvp8ocj.jpg"
+    },
+    {
+      "id": "4adbb511-145c-44df-bf2f-e7e2700cd0b8",
+      "userid": "e1800df1-bf67-48fb-9e0e-13910c7b3a0e",
+      "breed": "Maine Coon",
+      "name": "Jeff",
+      "age": "1",
+      "lifespan": "10 years ",
+      "size": [
+        "small ",
+        "brown "
+      ],
+      "weight": "10 kg",
+      "personality": "friendly",
+      "cats": [],
+      "date": "2025-04-19T14:36:05.158Z",
+      "picture": "http://res.cloudinary.com/dgoexcotl/image/upload/v1745073365/vreqo7l64xbx1vpzcio2.webp"
     }
   ]
 }
