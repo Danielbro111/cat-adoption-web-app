@@ -5,7 +5,7 @@
   </h1>
 
   {{#unless catBreeds}}
-    <div class="ui icon message" style="background: #pink; color: #004d40; border: 2px dashed #26a69a; border-radius: 12px;">
+    <div class="ui icon message" style="background: #pink; border: 2px dashed pink; border-radius: 12px;">
       <i class="cat icon" style="color: pink;"></i>
       <div class="content">
         <div class="header">No cats are home! 😿</div>
@@ -17,13 +17,18 @@
   {{#each catBreeds}}
     <section class="ui segment" style="margin-top: 2em; background: #ffffff; border-radius: 18px;">
       
-      <h3 class="ui header" style="font-size: 1.6em;  font-weight: 600; margin-bottom: 1em;">
+      
+      <div class="ui top attached label" style="background: #ffb6c1; color: white; font-size: 0.9em;">
+        <i class="calendar icon"></i> Added on {{formatDate date}}
+      </div>
+      
+      <h3 class="ui header" style="font-size: 1.6em; color: pink;  font-weight: 600; margin-bottom: 1em;">
          <strong> {{breed}}</strong>
       </h3>
 
       <div class="ui stackable grid" style="align-items: center;">
 
-        <!-- Text Info -->
+       
         <div class="seven wide column" style="text-align: left; color: #444; padding-right: 1.5em;">
           <div style="line-height: 1.6;">
             <p><strong>Name:</strong> {{name}}</p>
@@ -33,10 +38,11 @@
             <p><strong>Weight:</strong> {{weight}}</p>
             <p><strong>Colour:</strong> {{colour}}</p>
             <p><strong>Personality:</strong> {{personality}}</p>
+            
           </div>
         </div>
 
-        <!-- Image & Actions -->
+      
         <div class="nine wide column" style="display: flex; flex-direction: column; align-items: center; gap: 1.5em;">
 
           <div class="image" style="width: 220px; height: 220px; overflow: hidden; border-radius: 12px; box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);">

@@ -1,5 +1,126 @@
 {{> welcomemenu }}
 
-<section class="ui center aligned middle aligned segment">
-  <p> Sign up or Log in... </p>
+<section class="ui center aligned segment" style="padding: 4em 2em; background: linear-gradient(135deg, #e6f7ff 0%, #f0f9ff 100%); border-radius: 20px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); margin-top: 2em;">
+  
+  <h1 class="ui huge header" style="color: #ff6f91; font-family: 'Quicksand', sans-serif; letter-spacing: 1px; text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);">
+    🐾 Welcome to Feline Friends Rescue
+  </h1>
+  
+  <div class="ui stackable grid" style="margin-top: 3em;">
+    <!-- Left Column - Welcome Message -->
+    <div class="eight wide column" style="text-align: left; padding: 2em;">
+      <h2 class="ui header" style="color: #333; margin-bottom: 1em;">
+        Find Your Purr-fect Companion
+      </h2>
+      <p style="font-size: 1.2em; line-height: 1.6; color: #444;">
+        Welcome to Feline Friends Rescue, where we connect loving homes with wonderful cats in need. 
+        Our mission is to provide a safe haven for cats and help them find their forever families.
+      </p>
+      
+      <div class="ui statistics" style="margin-top: 2em;">
+        <div class="statistic" style="margin-right: 2em;">
+          <div class="value" style="color: #ff6f91;">
+            <i class="paw icon"></i>
+          </div>
+          <div class="label" style="color: #666;">
+            Happy Cats
+          </div>
+        </div>
+        <div class="statistic">
+          <div class="value" style="color: #ff6f91;">
+            <i class="heart icon"></i>
+          </div>
+          <div class="label" style="color: #666;">
+            Loving Homes
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Right Column - Login/Signup -->
+    <div class="eight wide column" style="padding: 2em;">
+      <div class="ui raised segment" style="background: white; border-radius: 15px; padding: 2em; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+        <h3 class="ui header" style="color: #ff6f91; text-align: center; margin-bottom: 1.5em;">
+          Join Our Community
+        </h3>
+        
+        <div class="ui two column stackable grid">
+          <div class="column">
+            <a href="/signup" class="ui fluid pink button" style="background: #ff6f91; color: white; padding: 1em; border-radius: 8px; transition: all 0.3s ease;">
+              <i class="user plus icon"></i>
+              Sign Up
+            </a>
+          </div>
+          <div class="column">
+            <a href="/login" class="ui fluid button" style="background: #e6f7ff; color: #ff6f91; padding: 1em; border-radius: 8px; transition: all 0.3s ease;">
+              <i class="sign in alternate icon"></i>
+              Log In
+            </a>
+          </div>
+        </div>
+        
+        <div class="ui divider" style="margin: 2em 0;"></div>
+        
+        <div class="ui message" style="background: #fff5f7; color: #666; border-radius: 8px;">
+          <div class="header" style="color: #ff6f91;">
+            Why Join Us?
+          </div>
+          <ul class="list" style="margin-top: 1em;">
+            <li>Browse our adorable cats</li>
+            <li>Save your favorite breeds</li>
+            <li>Get updates on new arrivals</li>
+            <li>Join our cat-loving community</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Featured Cats Section -->
+  <div class="ui stackable grid" style="margin-top: 3em;">
+    <div class="sixteen wide column">
+      <h2 class="ui header" style="color: #333; margin-bottom: 1.5em;">
+        Featured Cats
+      </h2>
+      <div class="ui three stackable cards">
+        <div class="card" style="box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); border-radius: 15px; transition: transform 0.3s ease;">
+          <div class="image" style="height: 200px; overflow: hidden; border-radius: 15px 15px 0 0;">
+            <img src="https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/02-lanai-cat-sanctuary-great-went.webp?v=1740492539576" style="width: 100%; height: 100%; object-fit: cover;">
+          </div>
+          <div class="content" style="padding: 1.5em;">
+            <div class="header" style="color: #ff6f91;">Meet Our Stars</div>
+            <div class="description">
+              Discover our most popular feline friends waiting for their forever homes.
+            </div>
+          </div>
+        </div>
+        
+        <div class="card" style="box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); border-radius: 15px; transition: transform 0.3s ease;">
+          <div class="image" style="height: 200px; overflow: hidden; border-radius: 15px 15px 0 0;">
+            <img src="https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/24.jpg?v=1741010585126" style="width: 100%; height: 100%; object-fit: cover;">
+          </div>
+          <div class="content" style="padding: 1.5em;">
+            <div class="header" style="color: #ff6f91;">New Arrivals</div>
+            <div class="description">
+              Check out our newest additions to the Feline Friends family.
+            </div>
+          </div>
+        </div>
+        
+        <div class="card" style="box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1); border-radius: 15px; transition: transform 0.3s ease;">
+          <div class="image" style="height: 200px; overflow: hidden; border-radius: 15px 15px 0 0;">
+            <img src="https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/mission1.jpg?v=1741089291685" style="width: 100%; height: 100%; object-fit: cover;">
+          </div>
+          <div class="content" style="padding: 1.5em;">
+            <div class="header" style="color: #ff6f91;">Success Stories</div>
+            <div class="description">
+              Read heartwarming stories of cats who found their perfect homes.
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
+
+
