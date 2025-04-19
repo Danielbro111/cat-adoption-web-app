@@ -8,6 +8,7 @@ import accounts from './accounts.js';
 const catdetails  = {
   //creates and renders page 
   createView(request, response) {
+     const loggedInUser = accounts.getCurrentUser(request);
     //logs when the page is loading
     logger.info("Cat page loading!");
     
@@ -15,6 +16,8 @@ const catdetails  = {
     const viewData = {
       title: "Our Feline Friends  ",
       BigCats: catDetails.getAllCats(),
+      fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
+      picture: loggedInUser.picture
       
       
     };

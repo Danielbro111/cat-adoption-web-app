@@ -44,7 +44,8 @@ findResult(request, response) {
       foundCatBreeds: cats.getcatBreed(breed, loggedInUser.id),
       catBreeds: getcatBreeds(loggedInUser),
       catBreedTitle: breed,
-      fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName
+      fullname: loggedInUser.firstName + ' ' + loggedInUser.lastName,
+       picture: loggedInUser.picture,
     };
     
     logger.debug(viewData.foundCatBreeds);
