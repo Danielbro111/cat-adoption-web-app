@@ -1,27 +1,28 @@
-<section class="ui center aligned middle aligned segment" style="padding: 4em 2em; background: linear-gradient(to right, #fceabb, #f8b500); border-radius: 15px;">
+<section class="ui center aligned middle aligned segment"> 
   
-  <h1 class="ui huge header" style="color: #333; font-family: 'Segoe UI', sans-serif;">
-    🐱 Cat Adoption Dashboard
+  <h1 class="ui header">
+   Cat Adoption Dashboard 🐱
   </h1>
 
   {{#unless catBreeds}}
     <div class="ui icon message" style="background: #fffbe6; color: #b58e00; border: 2px dashed #fbbd08;">
-      <i class="cat icon" style="color: #fbbd08;"></i>
+      <i class="cat icon"></i>
       <div class="content">
-        <div class="header">No cats are home! 😿</div>
+        <div class="header"> No cats are home! 😿</div>
         <p>You haven’t adopted any kitties yet. Time to find your purr-fect companion!</p>
       </div>
     </div>
   {{/unless}}
 
   {{#each catBreeds}}
-    <section class="ui raised segment" style="margin-top: 3em; border-radius: 20px; background: #fffaf0; box-shadow: 0 10px 20px rgba(0,0,0,0.1);">
+    <section class="ui raised segment" style="margin-top: 3em; border-radius: 20px;  box-shadow: 0 10px 20px rgba(0,0,0,0.1);">
       <h3 class="ui header" style="font-size: 1.8em; font-weight: bold; color: #f2711c;">
-        😺 {{breed}}
+         {{breed}}
       </h3>
 
       <div class="ui grid stackable">
-        <!-- Cat Info -->
+      
+        
         <div class="six wide column" style="text-align: left; font-size: 1.1em;">
           <p><strong>🐾 Name:</strong> {{name}}</p>
           <p><strong>🎂 Age:</strong> {{age}}</p>
