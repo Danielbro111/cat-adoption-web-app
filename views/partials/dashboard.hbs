@@ -5,8 +5,8 @@
   </h1>
 
   {{#unless catBreeds}}
-    <div class="ui icon message" style="background: #e0f2f1; color: #004d40; border: 2px dashed #26a69a; border-radius: 12px;">
-      <i class="cat icon" style="color: #26a69a;"></i>
+    <div class="ui icon message" style="background: #pink; color: #004d40; border: 2px dashed #26a69a; border-radius: 12px;">
+      <i class="cat icon" style="color: pink;"></i>
       <div class="content">
         <div class="header">No cats are home! 😿</div>
         <p>You haven’t adopted any kitties yet. Time to find your purr-fect companion!</p>
@@ -15,10 +15,10 @@
   {{/unless}}
 
   {{#each catBreeds}}
-    <section class="ui segment" style="margin-top: 2em; background: #ffffff; border-radius: 18px; box-shadow: 0 6px 14px rgba(0, 0, 0, 0.05); padding: 1.5em 2em;">
+    <section class="ui segment" style="margin-top: 2em; background: #ffffff; border-radius: 18px;">
       
-      <h3 class="ui header" style="font-size: 1.6em; color: #9c88ff; font-weight: 600; margin-bottom: 1em;">
-        🐱 {{breed}}
+      <h3 class="ui header" style="font-size: 1.6em;  font-weight: 600; margin-bottom: 1em;">
+         <strong> {{breed}}</strong>
       </h3>
 
       <div class="ui stackable grid" style="align-items: center;">
