@@ -29,6 +29,14 @@
       "password": "DB",
       "id": "ada35aac-fe98-4daa-b3dc-28657bfa0749",
       "picture": "http://res.cloudinary.com/dgoexcotl/image/upload/v1745082913/ftwb3lkxrys6kmbdfp0k.webp"
+    },
+    {
+      "firstName": "Kamile",
+      "lastName": "Andriusaityte",
+      "email": "KA@gmail.com",
+      "password": "KA",
+      "id": "c46889d7-498a-4a19-96d0-8cf1cf957210",
+      "picture": "http://res.cloudinary.com/dgoexcotl/image/upload/v1745093031/ry3ie6e70hv6nohbqqw6.png"
     }
   ]
 }
