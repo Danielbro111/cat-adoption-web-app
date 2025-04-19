@@ -63,3 +63,13 @@ h1, h2, h3 {
   font-weight:bold;
   text-transform:capitalize;
 }
+
+.ui.button:hover {
+    transform: scale(1.03);
+    opacity: 0.9;
+  }
+
+  img:hover {
+    transform: scale(1.03);
+    transition: all 0.3s ease;
+  }
