@@ -71,6 +71,29 @@
       "cats": [],
       "date": "2025-04-19T15:22:47.127Z",
       "picture": "http://res.cloudinary.com/dgoexcotl/image/upload/v1745076167/btbuqyllrvivltikwa26.jpg"
+    },
+    {
+      "id": "edf7739f-2ea0-4b77-ad7b-b45fc8894258",
+      "userid": "ada35aac-fe98-4daa-b3dc-28657bfa0749",
+      "breed": "Maine Coon",
+      "name": "Daniel",
+      "age": "1",
+      "lifespan": "10 year",
+      "size": "Small",
+      "weight": "10 lb",
+      "colour": "brown",
+      "personality": "friendly",
+      "cats": [
+        {
+          "id": "b974baf6-0505-4275-938b-06ba39a74388",
+          "name": "1",
+          "age": "1",
+          "colour": "1",
+          "weight": "1"
+        }
+      ],
+      "date": "2025-04-21T18:36:53.686Z",
+      "picture": "http://res.cloudinary.com/dgoexcotl/image/upload/v1745260613/ducj1s43vmhbrgqsb5sl.webp"
     }
   ]
 }

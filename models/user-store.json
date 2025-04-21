@@ -37,6 +37,14 @@
       "password": "KA",
       "id": "c46889d7-498a-4a19-96d0-8cf1cf957210",
       "picture": "http://res.cloudinary.com/dgoexcotl/image/upload/v1745093031/ry3ie6e70hv6nohbqqw6.png"
+    },
+    {
+      "firstName": "Daniel",
+      "lastName": "Brophy",
+      "email": "DB@gmail.com",
+      "password": "DB1",
+      "id": "94c21fcd-14d4-43a1-9f03-09c7f4aea1ff",
+      "picture": "http://res.cloudinary.com/dgoexcotl/image/upload/v1745260518/oq6jhkmwp6rprfr3uofb.png"
     }
   ]
 }
