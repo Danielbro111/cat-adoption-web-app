@@ -3,7 +3,7 @@
 import logger from '../utils/logger.js';
 import userStore from '../models/user-store.js';
 import { v4 as uuidv4 } from 'uuid';
-
+import cats from '../models/mycollection.js';
 
 
 
@@ -14,8 +14,27 @@ const accounts = {
 
   //index function to render index page
   index(request, response) {
+    
+    
+    
+    const catBreed = cats.getAllCats();
+    
+    let numBreeds = catBreed.length; 
+    
+    let numCats = 0;
+    
+    for (let item of cats) {
+        numCats += item.cats.length;
+      }
+    
+    
+    
+    
+    
     const viewData = {
       title: 'Login or Signup',
+      displayNumPlaylists: numPlaylists,
+        displayNumSongs: numSongs,
     };
     response.render('index', viewData);
   },
