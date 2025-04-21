@@ -1,80 +1,76 @@
 {{> welcomemenu }}
 
-<section class="ui center aligned segment" style="padding: 2em; margin-top: 2em;">
+<section class="ui container center aligned segment" style="padding: 2em; margin-top: 2em;">
   <h1 class="ui header" style="color: #ff6f91;">
     Welcome to Feline Friends Rescue
   </h1>
-  
+
   <div class="ui stackable grid" style="margin-top: 2em;">
     <!-- Left Column - Welcome Message -->
     <div class="eight wide column" style="text-align: left;">
-      <h2 class="ui header">
-        Find Your Purr-fect Companion
-      </h2>
+      <h2 class="ui header">Find Your Purr-fect Companion</h2>
       <p style="font-size: 1.1em;">
         Welcome to Feline Friends Rescue, where we connect loving homes with wonderful cats in need. 
         Our mission is to provide a safe haven for cats and help them find their forever families.
       </p>
-      
-      <div class="ui statistics" style="margin-top: 1em;">
-        <div class="statistic" style="margin-right: 2em;">
+
+      <div class="ui three statistics" style="margin-top: 2em;">
+        <div class="statistic">
           <div class="value" style="color: #ff6f91;">
-            <i class="paw icon"></i>
-          </div>
-          <div class="label">
-            Happy Cats
-          </div>
-        </div>
-        <div class="statistic" style="margin-right: 2em;">
-          <div class="value" style="color: #ff6f91;">
-            <i class="heart icon"></i>
-          </div>
-          <div class="label">
-            Loving Homes
-          </div>
+            <i class="paw icon"></i></div>
+          <div class="label">Happy Cats</div>
         </div>
         <div class="statistic">
           <div class="value" style="color: #ff6f91;">
-            <i class="cat icon"></i>
-          </div>
-          <div class="label">
-            Friendly Felines
-          </div>
+            
+          <i class="heart icon"></i></div>
+          <div class="label">Loving Homes</div>
+        </div>
+        <div class="statistic">
+          <div class="value" style="color: #ff6f91;">
+            <i class="cat icon"></i></div>
+          <div class="label">Friendly Felines</div>
+        </div>
+      </div>
+
+      <div class="ui three statistics" style="margin-top: 2em;">
+        <div class="statistic">
+          <div class="value" style="color: #ff6f91;">
+            <i class="cat icon"></i></div>
+          <div class="label">{{displayNumBreeds}} Cat Breeds</div>
+        </div>
+        <div class="statistic">
+          <div class="value" style="color: #ff6f91;">
+            <i class="cat icon"></i></div>
+          <div class="label">{{displayNumCats}} Cats</div>
+        </div>
+        <div class="statistic">
+          <div class="value" style="color: #ff6f91;">
+            <i class="user icon"></i></div>
+          <div class="label">{{numUsers}} Users</div>
         </div>
       </div>
     </div>
-    
-    
-    
-    
+
     <!-- Right Column - Login/Signup -->
     <div class="eight wide column">
       <div class="ui raised segment">
-        <h3 class="ui header" style="color: #ff6f91;">
-          Join Our Community
-        </h3>
-        
+        <h3 class="ui header" style="color: #ff6f91;">Join Our Community</h3>
         <div class="ui two column stackable grid">
           <div class="column">
             <a href="/signup" class="ui fluid pink button">
-              <i class="user plus icon"></i>
-              Sign Up
+              <i class="user plus icon"></i> Sign Up
             </a>
           </div>
           <div class="column">
             <a href="/login" class="ui fluid button">
-              <i class="sign in alternate icon"></i>
-              Log In
+              <i class="sign in alternate icon"></i> Log In
             </a>
           </div>
         </div>
-        
         <div class="ui divider"></div>
-        
         <div class="ui message">
-          <div class="header">
-            Why Join Us?
-          </div>
+          <div class="header">Why Join Us?</div>
           <ul class="list">
             <li>Browse our adorable cats</li>
             <li>Save your favorite breeds</li>
@@ -85,13 +81,11 @@
       </div>
     </div>
   </div>
-  
+
   <!-- Featured Cats Section -->
-  <div class="ui stackable grid" style="margin-top: 2em;">
+  <div class="ui stackable grid" style="margin-top: 3em;">
     <div class="sixteen wide column">
-      <h2 class="ui header">
-        Featured Cats
-      </h2>
+      <h2 class="ui header">Featured Cats</h2>
       <div class="ui three stackable cards">
         <div class="card">
           <div class="image" style="height: 200px;">
@@ -104,7 +98,7 @@
             </div>
           </div>
         </div>
-        
+
         <div class="card">
           <div class="image" style="height: 200px;">
             <img src="https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/24.jpg?v=1741010585126" style="width: 100%; height: 100%; object-fit: cover;">
@@ -116,8 +110,8 @@
             </div>
           </div>
         </div>
-        
-         <div class="card">
+
+        <div class="card">
           <div class="image" style="height: 200px;">
             <img src="https://cdn.glitch.global/f4d4b34b-af09-4993-a4d8-24ef9e0840ac/mission1.jpg?v=1741089291685" style="width: 100%; height: 100%; object-fit: cover;">
           </div>

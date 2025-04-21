@@ -23,18 +23,20 @@ const accounts = {
     
     let numCats = 0;
     
-    for (let item of cats) {
+    for (let item of catBreed) {
         numCats += item.cats.length;
       }
     
-    
-    
+    let Users =  userStore.getAllUsers()
+     
+      let numUsers = Users.length;
     
     
     const viewData = {
       title: 'Login or Signup',
-      displayNumPlaylists: numPlaylists,
-        displayNumSongs: numSongs,
+      displayNumBreeds: numBreeds,
+      displayNumCats: numCats,
+      numUsers : numUsers
     };
     response.render('index', viewData);
   },
