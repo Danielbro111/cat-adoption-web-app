@@ -19,6 +19,9 @@ catch(e) {
   process.exit(1);
 }
 
+function mostCommon(obj) {
+  return Object.entries(obj).sort((a, b) => b[1] - a[1])[0]?.[0] || "-";
+}
  
 
 class JsonStore {

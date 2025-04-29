@@ -4,7 +4,7 @@ import logger from '../utils/logger.js';
 import userStore from '../models/user-store.js';
 import { v4 as uuidv4 } from 'uuid';
 import cats from '../models/mycollection.js';
-
+import JsonStore from "../models/functions.js";
 
 
 
@@ -30,6 +30,9 @@ const accounts = {
     let Users =  userStore.getAllUsers()
      
       let numUsers = Users.length;
+    
+    
+    
     
     
     const viewData = {
