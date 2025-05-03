@@ -23,7 +23,7 @@
   
 
 <div class="ui four statistics" style="margin-top: 1em;, padding: 10em;">
-  {{#with info}}  <!-- Loops through info to display center details -->
+  {{#with info}}  
   
     <div class="statistic">
       <div class="value">
@@ -72,19 +72,19 @@
 <h2 class="ui center aligned header" style="margin-top: 2em;">Meet Our Featured Cats!</h2>
 
   
-{{#unless info.featuredCats}} <!-- If there are no featured cats it displays this message -->
+{{#unless info.featuredCats}} 
   <h3 class="ui message">
     No featured cats! Please see our dashboard for some friendly felines!
   </h3>
 {{/unless}}
   
     <section class="ui middle aligned segment" style="margin-top: 2em; padding: 10px; display: flex; ">
-{{#each info.featuredCats}} <!-- Loops through each featured cat and display its information -->
+{{#each info.featuredCats}}
 
 
     
     <div class="ui card" style = " margin: auto; width: 250px;">
-       <!-- Card to display a single cat's information -->
+       
       <div class="image" style="width: 100%; height: 200px;">
         <img src="{{image}}" style="width: 100%; height: 100%; object-fit: cover; hover">
       </div>

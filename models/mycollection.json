@@ -71,6 +71,43 @@
       "cats": [],
       "date": "2025-04-19T15:22:47.127Z",
       "picture": "http://res.cloudinary.com/dgoexcotl/image/upload/v1745076167/btbuqyllrvivltikwa26.jpg"
+    },
+    {
+      "id": "aac45f16-6546-4e02-842b-063b52b639c6",
+      "userid": "ada35aac-fe98-4daa-b3dc-28657bfa0749",
+      "breed": "Maine Coon",
+      "name": "jeff",
+      "age": "1",
+      "lifespan": "10 years ",
+      "size": "small ",
+      "weight": "10 kg",
+      "colour": "brown",
+      "personality": "friendly",
+      "cats": [
+        {
+          "id": "bb2f2e4d-6dd7-4353-a1d9-64c42f8d41f1",
+          "name": "Jeff",
+          "age": "111",
+          "colour": "brown",
+          "weight": "10 kg"
+        },
+        {
+          "id": "f8925d5f-a64b-4c04-ba9c-c36da0879297",
+          "name": "john",
+          "age": "10",
+          "colour": "grey",
+          "weight": "5 kg"
+        },
+        {
+          "id": "615de23e-505a-492e-800c-6b0deec142b5",
+          "name": "Gerald",
+          "age": "1",
+          "colour": "black",
+          "weight": "2 kg"
+        }
+      ],
+      "date": "2025-05-03T20:29:07.874Z",
+      "picture": "http://res.cloudinary.com/dgoexcotl/image/upload/v1746304148/jcy2qeusaaniancxwaov.webp"
     }
   ]
 }
