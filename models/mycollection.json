@@ -108,6 +108,29 @@
       ],
       "date": "2025-05-03T20:29:07.874Z",
       "picture": "http://res.cloudinary.com/dgoexcotl/image/upload/v1746304148/jcy2qeusaaniancxwaov.webp"
+    },
+    {
+      "id": "fabf4fc9-44c9-44a0-84b4-1f9165c765e6",
+      "userid": "f0470b18-5dfb-47b9-875d-8bbabd7b8179",
+      "breed": "Bengal",
+      "name": "Kitty",
+      "age": "3",
+      "lifespan": "10",
+      "size": "12",
+      "weight": "15",
+      "colour": "White",
+      "personality": "Shy",
+      "cats": [
+        {
+          "id": "1625fd5d-d886-41b3-832f-0bef82af6aea",
+          "name": "Kitty",
+          "age": "1",
+          "colour": "White",
+          "weight": "8"
+        }
+      ],
+      "date": "2025-05-06T14:53:25.081Z",
+      "picture": "http://res.cloudinary.com/dgoexcotl/image/upload/v1746543205/p5z284l8oanal7cc3y6j.jpg"
     }
   ]
 }

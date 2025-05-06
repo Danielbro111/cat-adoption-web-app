@@ -45,6 +45,14 @@
       "password": "DB1",
       "id": "94c21fcd-14d4-43a1-9f03-09c7f4aea1ff",
       "picture": "http://res.cloudinary.com/dgoexcotl/image/upload/v1745260518/oq6jhkmwp6rprfr3uofb.png"
+    },
+    {
+      "firstName": "Mary",
+      "lastName": "Lyng",
+      "email": "mary.lyng@setu.ie",
+      "password": "Trustno1",
+      "id": "f0470b18-5dfb-47b9-875d-8bbabd7b8179",
+      "picture": "http://res.cloudinary.com/dgoexcotl/image/upload/v1746543139/g35cxphtvosuj6wxe1m1.jpg"
     }
   ]
 }
